@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <table id="table1" width="100%">
+        <tr>
+            <td colspan="2">
+                <div id="divek" style="background-color:lightgrey ; font-size: 12px; text-align: center;">
+                    <a href="index2.html">A könyv</a>
+                    <a href="index.html">Karaktergeneráló</a>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="50%">
+                <div id="divek">
+                    <label for="">Faj választása: </label>
+                    <select name="" id="fajselector">
+                        <option value="">Válassz</option>
+                        <option value="ember">Ember</option>
+                        <option value="elf">Elf</option>
+                        <option value="felelf">Félelf</option>
+                        <option value="torpe">Törpe</option>
+                        <option value="ork">Udvari ork</option>
+                    </select>
+                </div>
+            </td>
+
+            <td>
+                <div id="divek">
+                    <label for="">Vallás választása: </label>
+                    <select name="" id="vallasselector">
+                        <option value="">Válassz</option>
+                        <option value="">Domvik</option>
+                        <option value="">Ranagol</option>
+                        <option value="">Tharr</option>
+                        <option value="">Sogron</option>
+                        <option value="">Morgana</option>
+                        <option value="">Adron</option>
+                        <option value="">Alborne</option>
+                        <option value="">Antoh</option>
+                        <option value="">Arel</option>
+                        <option value="">Darton</option>
+                        <option value="">Della</option>
+                        <option value="">Dreina</option>
+                        <option value="">Ellana</option>
+                        <option value="">Gilron</option>
+                        <option value="">Krad</option>
+                        <option value="">Kyel</option>
+                        <option value="">Noir</option>
+                        <option value="">Orwella</option>
+                        <option value="">Uwel</option>
+                    </select>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div id="divek">
+                    <label for="">Kaszt választása</label>
+                    <select name="" id="kasztselector">
+                        <option value="valassz">Válassz</option>
+                        <option value="harcos">Harcos</option>
+                        <option value="gladiator">Gladiátor</option>
+                        <option value="fejvadasz">Fejvadász</option>
+                        <option value="lovag">Lovag</option>
+                        <option value="tolvaj">Tolvaj</option>
+                        <option value="bard">Bárd</option>
+                        <option value="pap">Pap</option>
+                        <option value="paplovag">Paplovag</option>
+                        <option value="harcmuvesz">Harcművész</option>
+                        <option value="kardmuvesz">Kardművész</option>
+                        <option value="boszorkany">Boszorkány</option>
+                        <option value="boszorkanymester">Boszorkánymester</option>
+                        <option value="tuzvarazslo">Tűzvarázsló</option>
+                        <option value="varazslo">Varázsló</option>
+                    </select>
+                </div>
+            </td>
+            <td> <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                <div id="divek" style="text-align: center; background-color: grey ;">
+                    Harci értékek
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <!-- ez az erő táblája, ami tartalmazza az erő labelt, és az output-ot -->
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width: 20%;">
+                        <div id="divek" style="text-align:left;">
+                            <label for="">Erő</label>
+                        </div>
+                    </td>
+                    <td style="width: 5%;">
+                        <label for="" style="width: 40% ;"> = </label>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="eroplus" onclick="eroplus()">+</button>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="erominus" onclick="erominus()">-</button>
+                    </td>
+                    <td style="width: 7%;">
+                        <div id="divek">
+                            <output type="number" id="ero">0</output>
+                        </div>
+                    </td>
+
+                    <td style="width: 35%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                        <div id="divek">
+                            <label for="">Kezdeményező érték: </label>
+                            <label for="">=</label>
+                            <output id="ke" type="number"></output>
+                        </div>
+                    </td>
+                    
+                </tr>
+                 
+            </table>
+        </tr>
+
+        <tr>
+            <!-- ez a gyorsaság táblája, ami tartalmazza a gyorsaság labelt, és az output-ot -->
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width: 20%;">
+                        <div id="divek" style="text-align:left;">
+                            <label for="">Gyorsaság</label>
+                        </div>
+                    </td>
+                    <td style="width: 5%;">
+                        <label for="" style="width: 40%;"> = </label>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="gyorsasagplus" onclick="gyorsasagplus()">+</button>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="gyorsasagminus" onclick="gyorsasagminus()">-</button>
+                    </td>
+                    <td style="width: 7%;">
+                        <div id="divek">
+                            <output type="number" id="gyorsasag"></output>
+                        </div>
+                    </td>
+
+                    <td style="width: 35%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                        <div id="divek">
+                            <label for="">Támadó érték: </label>
+                            <label for="">=</label>
+                            <output id="te" type="number"></output>
+                        </div>
+                    </td>
+
+                </tr>
+            </table>
+        </tr>
+
+        <tr>
+            <!-- ez az ügyesség táblája, ami tartalmazza az ügyesség labelt, és az output-ot -->
+            <table style="width:    100%;">
+                <tr>
+                    <td style="width: 20%;">
+                        <div id="divek" style="text-align:left;">
+                            <label for="">Ügyesség</label>
+                        </div>
+                    </td>
+                    <td style="width: 5%;">
+                        <label for="" style="width: 40%;"> = </label>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="ugyessegplus" onclick="ugyessegplus()">+</button>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="ugyessegminus" onclick="ugyessegminus()">-</button>
+                    </td>
+                    <td style="width: 7%;">
+                        <div id="divek">
+                            <output type="number" id="ugyesseg"></output>
+                        </div>
+                    </td>
+
+                    <td style="width: 35%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                        <div id="divek">
+                            <label for="">Védő érték: </label>
+                            <label for="">=</label>
+                            <output id="ve" type="number"></output>
+                        </div>
+                    </td>
+
+                </tr>
+            </table>
+        </tr>
+
+        <tr>
+            <!-- ez az állóképesség táblája, ami tartalmazza az állóképesség labelt, és az output-ot -->
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width: 20%;">
+                        <div id="divek" style="text-align:left;">
+                            <label for="">Állóképesség</label>
+                        </div>
+                    </td>
+                    <td style="width: 5%;">
+                        <label for="" style="width: 40%;"> = </label>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="allokepessegplus" onclick="allokepessegplus()">+</button>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="allokepessegminus" onclick="allokepessegminus()">-</button>
+                    </td>
+                    <td style="width: 7%;">
+                        <div id="divek">
+                            <output type="number" id="allokepesseg"></output>
+                        </div>
+                    </td>
+
+                    <td style="width: 35%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                        <div id="divek">
+                            <label for="">Célzó érték: </label>
+                            <label for="">=</label>
+                            <output id="ce" type="number"></output>
+                        </div>
+                    </td>
+
+                </tr>
+            </table>
+        </tr>
+
+        <tr>
+            <!-- ez az egészség táblája, ami tartalmazza az egészség labelt, és az output-ot -->
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width: 20%;">
+                        <div id="divek" style="text-align:left;">
+                            <label for="">Egészség</label>
+                        </div>
+                    </td>
+                    <td style="width: 5%;">
+                        <label for="" style="width: 40%;"> = </label>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="egeszsegplus" onclick="egeszsegplus()">+</button>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="egeszsegminus" onclick="egeszsegminus()">-</button>
+                    </td>
+                    <td style="width: 7%;">
+                        <div id="divek">
+                            <output type="number" id="egeszseg"></output>
+                        </div>
+                    </td>
+
+                    <td style="width: 35%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                        <div id="divek">
+                            <label for="">Életerő pontok: </label>
+                            <label for="">=</label>
+                            <output id="ep" type="number"></output>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </tr>
+
+        <tr>
+            <!-- ez a szépség táblája, ami tartalmazza a szépség labelt, és az output-ot -->
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width: 20%;">
+                        <div id="divek" style="text-align:left;">
+                            <label for="">Szépség</label>
+                        </div>
+                    </td>
+                    <td style="width: 5%;">
+                        <label for="" style="width: 40%;"> = </label>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="szepsegplus" onclick="szepsegplus()">+</button>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="szepsegminus" onclick="szepsegminus()">-</button>
+                    </td>
+                    <td style="width: 7%;">
+                        <div id="divek">
+                            <output type="number" id="szepseg"></output>
+                        </div>
+                    </td>
+                    <td style="width: 35%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                        <div id="divek">
+                            <label for="">Fájdalomtűrés pontok: </label>
+                            <label for="">=</label>
+                            <output id="fp" type="number"></output>
+                        </div>
+                    </td>
+
+                </tr>
+            </table>
+        </tr>
+
+        <tr>
+            <!-- ez az intelligencia táblája, ami tartalmazza az intelligencia labelt, és az output-ot -->
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width: 20%;">
+                        <div id="divek" style="text-align:left;">
+                            <label for="">Intelligencia</label>
+                        </div>
+                    </td>
+                    <td style="width: 5%;">
+                        <label for="" style="width: 40%;"> = </label>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="intelligenciaplus" onclick="intelligenciaplus()">+</button>
+                    </td">
+                    <td style="width: 10%;">
+                        <button id="intelligenciaminus" onclick="intelligenciaminus()">-</button>
+                    </td>
+                    <td style="width: 7%;">
+                        <div id="divek">
+                            <output type="number" id="intelligencia"></output>
+                        </div>
+                    </td>
+                    <td style="width: 35%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                        <div id="divek">
+                            <label for="">Mana pont: </label>
+                            <label for="">=</label>
+                            <output id="mana" type="number"></output>
+                        </div>
+                    </td>
+
+                </tr>
+            </table>
+        </tr>
+
+        <tr>
+            <!-- ez az akaraterő táblája, ami tartalmazza az akaraterő labelt, és az output-ot -->
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width: 20%;">
+                        <div id="divek" style="text-align:left;">
+                            <label for="">Akaraterő</label>
+                        </div>
+                    </td>
+                    <td style="width: 5%;">
+                        <label for="" style="width: 40%;"> = </label>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="akarateroplus" onclick="akarateroplus()">+</button>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="akaraterominus" onclick="akaraterominus()">-</button>
+                    </td>
+                    <td style="width: 7%;">
+                        <div id="divek">
+                            <output type="number" id="akaratero"></output>
+                        </div>
+                    </td>
+                    <td style="width: 35%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                        <div id="divek">
+                            <label for="">Pszi pontok: </label>
+                            <label for="">=</label>
+                            <output id="pszi" type="number"></output>
+                        </div>
+                    </td>
+
+                </tr>
+            </table>
+        </tr>
+
+        <tr>
+            <!-- ez az asztrál táblája, ami tartalmazza az asztrál labelt, és az output-ot -->
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width: 20%;">
+                        <div id="divek" style="text-align:left;">
+                            <label for="">Asztrál</label>
+                        </div>
+                    </td>
+                    <td style="width: 5%;">
+                        <label for="" style="width: 10%;"> = </label>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="asztralplus" onclick="asztralplus()">+</button>
+                    </td>
+                    <td style="width: 10%;">
+                        <button id="asztralminus" onclick="asztralminus()">-</button>
+                    </td>
+                    <td style="width: 7%;">
+                        <div id="divek">
+                            <output type="number" id="asztral"></output>
+                        </div>
+                    </td>
+                    <td style="width: 35%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                        <div id="divek">
+                            <label for="">Egyéb: </label>
+                            <label for="">=</label>
+                            <output id="egyeb"></output>
+                        </div>
+                    </td>
+
+                </tr>
+            </table>
+        </tr>
+
+        <table style="width: 50%; font-size: 10px;">
+            <tr>
+                <td colspan="3">
+                    <div id="divek" style="background-color:lightgrey; text-align: center; font-size: 12px;">
+                        <label for="">Képzettségek</label>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <!--ez az alap képzettséglista! -->
+                <td>
+                    <output id="kepzettseg1"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg1fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg2"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg2fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg3"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg3fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg4"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg4fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg5"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg5fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg6"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg6fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg7"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg7fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg8"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg8fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg9"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg9fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg10"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg10fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg11"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg11fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg12"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg12fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg13"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg13fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg14"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg14fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg15"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg15fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg16"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg16fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg17"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg17fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg18"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg18fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg19"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg19fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg20"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg20fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg21"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg21fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg22"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg22fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg23"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg23fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg24"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg24fok"></output>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <output id="kepzettseg25"></output>
+                </td>
+                <td>Fok: </td>
+                <td>
+                    <output id="kepzettseg25fok"></output>
+                </td>
+            </tr>
+
+
+        </table>
+
+        <table style="width: 100%;">
+            <!--gombok-->
+            <tr>
+                <td style="text-align: center;">
+                    <div id="divek" style="text-align: center ;">
+                        <button onclick="dice()" id="tulbutton"
+                            style="padding: 4px; background-color: lightsalmon; border-radius: 4px;">Értékek
+                            kidobása!</button>
+                        <button onclick="kepzettseg()" id="szamolobutton"
+                            style="padding: 4px; background-color: bisque; border-radius: 4px;">Számolj!</button>
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+
+    </table>
+
+
+
+
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
