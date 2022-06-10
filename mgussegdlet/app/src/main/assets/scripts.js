@@ -1,12 +1,23 @@
 var k6 = Math.round(Math.random() * 6 + 1);
 
 
+
+
+
 function eroplus() {
     document.getElementById("ero").innerHTML++;
+    if (document.getElementById("ero").innerHTML >= 19) {
+        alert("az érték nem lehet nagyobb, mint 18!!!");
+        document.getElementById("ero").innerHTML --;
+    }
 }
 
 function erominus() {
     document.getElementById("ero").innerHTML--;
+    if (document.getElementById("ero").innerHTML == 0) {
+        alert("az érték nem lehet isebb, mint 0!!!");
+        document.getElementById("ero").innerHTML ++;
+    }
 }
 
 function gyorsasagplus() {
@@ -122,6 +133,9 @@ function asztralminus() {
 }
 
 function kepzettseg() { /* itt az elf, félelf kivételt képez, mert ők +10 +20 cé-vel indulnak */
+
+document.getElementById("ero").innerHTML++;
+
     if (document.getElementById("kasztselector").value == "harcos" && document.getElementById("fajselector").value == "elf") { /*harcos értékei!!! */
         document.getElementById("ke").innerHTML = 9 + (document.getElementById("gyorsasag").innerHTML - 10);
         document.getElementById("te").innerHTML = 20 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
