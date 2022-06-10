@@ -1,10 +1,10 @@
-var k6 = Math.round(Math.random() * 6 + 1);
+var k6 = Math.round(Math.random() * 6 + 1); /*dobókocka hat oldalú*/
 
 
 
 
 
-function eroplus() {
+function eroplus() { /*ezek az eroplus minus ugyessegplus minus stb a tulajdonságok gombjai*/
     document.getElementById("ero").innerHTML++;
     if (document.getElementById("ero").innerHTML >= 19) {
         alert("az érték nem lehet nagyobb, mint 18!!!");
@@ -177,40 +177,7 @@ document.getElementById("ero").innerHTML++;
 
 
 
-    /*ezek itt a faji módosítók!!! */
-
-    if (document.getElementById("fajselector").value == "elf") { /*faj módosító */
-        document.getElementById("ero").innerHTML = document.getElementById("ero").innerHTML - 2;
-    }
-
-    if (document.getElementById("fajselector").value == "elf") { /*faj módosító */
-        document.getElementById("ugyesseg").innerHTML = parseInt(document.getElementById("ugyesseg").innerHTML) + 1;
-    }
-
-    if (document.getElementById("fajselector").value == "elf") { /*faj módosító */
-        document.getElementById("gyorsasag").innerHTML = parseInt(document.getElementById("gyorsasag").innerHTML) + 1;
-    }
-
-    if (document.getElementById("fajselector").value == "elf") { /*faj módosító */
-        document.getElementById("szepseg").innerHTML = parseInt(document.getElementById("szepseg").innerHTML) + 1;
-    }
-
-    if (document.getElementById("fajselector").value == "elf") { /*faj módosító */
-        document.getElementById("allokepesseg").innerHTML = parseInt(document.getElementById("allokepesseg").innerHTML) - 1;
-    }
-
-    if (document.getElementById("fajselector").value == "felelf") { /*faj módosító */
-        document.getElementById("ero").innerHTML = document.getElementById("ero").innerHTML - 1;
-    }
-
-    if (document.getElementById("fajselector").value == "felelf") { /*faj módosító */
-        document.getElementById("gyorsasag").innerHTML = parseInt(document.getElementById("gyorsasag").innerHTML) + 1;
-    }
-
-    if (document.getElementById("fajselector").value == "torpe") { /*faj módosító */
-        document.getElementById("ero").innerHTML = document.getElementById("ero").innerHTML + 1;
-    }
-
+    /*faji módosítók is a kasztjellemzőknél legyenek a + erő ügyesség stb!!!!!!*/
     
 
 
