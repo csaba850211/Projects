@@ -1,9 +1,5 @@
 var k6 = Math.round(Math.random() * 6 + 1); /*dobókocka hat oldalú*/
 
-
-
-
-
 function eroplus() { /*ezek az eroplus minus ugyessegplus minus stb a tulajdonságok gombjai*/
     document.getElementById("ero").innerHTML++;
     if (document.getElementById("ero").innerHTML >= 19) {
@@ -153,7 +149,7 @@ function asztralminus() {
 
 function kepzettseg() { /* itt az elf, félelf kivételt képez, mert ők +10 +20 cé-vel indulnak */
 
-document.getElementById("ero").innerHTML++;
+  
 
     if (document.getElementById("kasztselector").value == "harcos" && document.getElementById("fajselector").value == "elf") { /*harcos értékei!!! */
         document.getElementById("ke").innerHTML = 9 + (document.getElementById("gyorsasag").innerHTML - 10);
@@ -193,16 +189,6 @@ document.getElementById("ero").innerHTML++;
         document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 4);
         document.getElementById("egyeb").innerHTML = "Hőlátás, Csapdakeresés: 35%, Titkosajtó keresés: 30% Földalatti érzék, Építmény korát meg tudják határozni";
     }
-
-
-
-    
-    
-
-
-
-
-
 
     if (document.getElementById("kasztselector").value == "harcos") { /*harcos képzettségei*/
         document.getElementById("kepzettseg1").innerHTML = "3 Fegyverhasználat"
