@@ -22,112 +22,131 @@ function erominus() {
 
 function gyorsasagplus() {
     document.getElementById("gyorsasag").innerHTML++;
+    if (document.getElementById("gyorsasag").innerHTML >= 19) {
+        alert("az érték nem lehet nagyobb, mint 18!!!");
+        document.getElementById("gyorsasag").innerHTML --;
+    }
 }
 
 function gyorsasagminus() {
     document.getElementById("gyorsasag").innerHTML--;
-
-    if (document.getElementById("gyorsasag").innerHTML <= 0) {
-        alert("Az érték nem lehet kisebb, mint nulla!");
-        document.getElementById("gyorsasag").innerHTML++;
-    }
-
+    if (document.getElementById("gyorsasag").innerHTML == 0) {
+        alert("az érték nem lehet isebb, mint 0!!!");
+        document.getElementById("gyorsasag").innerHTML ++;
+    }    
 }
 
 function ugyessegplus() {
     document.getElementById("ugyesseg").innerHTML++;
+    if (document.getElementById("ugyesseg").innerHTML >= 19) {
+        alert("az érték nem lehet nagyobb, mint 18!!!");
+        document.getElementById("ugyesseg").innerHTML --;
+    }
 }
 
 function ugyessegminus() {
     document.getElementById("ugyesseg").innerHTML--;
-
-    if (document.getElementById("ugyesseg").innerHTML <= 0) {
-        alert("Az érték nem lehet kisebb, mint nulla!");
-        document.getElementById("ugyesseg").innerHTML++;
+    if (document.getElementById("ugyesseg").innerHTML == 0) {
+        alert("az érték nem lehet isebb, mint 0!!!");
+        document.getElementById("ugyesseg").innerHTML ++;
     }
 
 }
 
 function allokepessegplus() {
     document.getElementById("allokepesseg").innerHTML++;
+    if (document.getElementById("allokepesseg").innerHTML >= 19) {
+        alert("az érték nem lehet nagyobb, mint 18!!!");
+        document.getElementById("allokepesseg").innerHTML --;
+    }
 }
 
 function allokepessegminus() {
     document.getElementById("allokepesseg").innerHTML--;
-
-    if (document.getElementById("allokepesseg").innerHTML <= 0) {
-        alert("Az érték nem lehet kisebb, mint nulla!");
-        document.getElementById("allokepesseg").innerHTML++;
+    if (document.getElementById("allokepesseg").innerHTML == 0) {
+        alert("az érték nem lehet isebb, mint 0!!!");
+        document.getElementById("allokepesseg").innerHTML ++;
     }
-
 }
 
 function egeszsegplus() {
     document.getElementById("egeszseg").innerHTML++;
+    if (document.getElementById("egeszseg").innerHTML >= 19) {
+        alert("az érték nem lehet nagyobb, mint 18!!!");
+        document.getElementById("egeszseg").innerHTML --;
+    }
 }
 
 function egeszsegminus() {
     document.getElementById("egeszseg").innerHTML--;
-
-    if (document.getElementById("egeszseg").innerHTML <= 0) {
-        alert("Az érték nem lehet kisebb, mint nulla!");
-        document.getElementById("egeszseg").innerHTML++;
+    if (document.getElementById("egeszseg").innerHTML == 0) {
+        alert("az érték nem lehet isebb, mint 0!!!");
+        document.getElementById("egeszseg").innerHTML ++;
     }
-
 }
 
 function szepsegplus() {
     document.getElementById("szepseg").innerHTML++;
+    if (document.getElementById("szepseg").innerHTML >= 19) {
+        alert("az érték nem lehet nagyobb, mint 18!!!");
+        document.getElementById("szepseg").innerHTML --;
+    }
 }
 
 function szepsegminus() {
     document.getElementById("szepseg").innerHTML--;
-
-    if (document.getElementById("szepseg").innerHTML <= 0) {
-        alert("Az érték nem lehet kisebb, mint nulla!");
-        document.getElementById("szepseg").innerHTML++;
+    if (document.getElementById("szepseg").innerHTML == 0) {
+        alert("az érték nem lehet isebb, mint 0!!!");
+        document.getElementById("szepseg").innerHTML ++;
     }
-
 }
 
 function intelligenciaplus() {
     document.getElementById("intelligencia").innerHTML++;
+    if (document.getElementById("intelligencia").innerHTML >= 19) {
+        alert("az érték nem lehet nagyobb, mint 18!!!");
+        document.getElementById("intelligencia").innerHTML --;
+    }
 }
 
 function intelligenciaminus() {
     document.getElementById("intelligencia").innerHTML--;
-
-    if (document.getElementById("intelligencia").innerHTML <= 0) {
-        alert("Az érték nem lehet kisebb, mint nulla!");
-        document.getElementById("intelligencia").innerHTML++;
+    if (document.getElementById("intelligencia").innerHTML == 0) {
+        alert("az érték nem lehet isebb, mint 0!!!");
+        document.getElementById("intelligencia").innerHTML ++;
     }
-
 }
 
 function akarateroplus() {
     document.getElementById("akaratero").innerHTML++;
-}
-
-function akaraterominus() {
-    document.getElementById("akaratero").innerHTML--;
-
-    if (document.getElementById("akaratero").innerHTML <= 0) {
-        alert("Az érték nem lehet kisebb, mint nulla!");
-        document.getElementById("akaratero").innerHTML++;
+    if (document.getElementById("akaratero").innerHTML >= 19) {
+        alert("az érték nem lehet nagyobb, mint 18!!!");
+        document.getElementById("akaratero").innerHTML --;
     }
 
 }
 
+function akaraterominus() {
+    document.getElementById("akaratero").innerHTML--;
+    if (document.getElementById("akaratero").innerHTML == 0) {
+        alert("az érték nem lehet isebb, mint 0!!!");
+        document.getElementById("akaratero").innerHTML ++;
+    }
+}
+
 function asztralplus() {
     document.getElementById("asztral").innerHTML++;
+    if (document.getElementById("asztral").innerHTML >= 19) {
+        alert("az érték nem lehet nagyobb, mint 18!!!");
+        document.getElementById("asztral").innerHTML --;
+    }
 }
 
 function asztralminus() {
     document.getElementById("asztral").innerHTML--;
-
-    if (document.getElementById("asztral").innerHTML <= 0) {
-        alert("Az érték nem lehet kisebb, mint nulla!");
-        document.getElementById("asztral").innerHTML++;
+    if (document.getElementById("asztral").innerHTML == 0) {
+        alert("az érték nem lehet isebb, mint 0!!!");
+        document.getElementById("asztral").innerHTML ++;
     }
 
 }
@@ -177,7 +196,7 @@ document.getElementById("ero").innerHTML++;
 
 
 
-    /*faji módosítók is a kasztjellemzőknél legyenek a + erő ügyesség stb!!!!!!*/
+    
     
 
 
