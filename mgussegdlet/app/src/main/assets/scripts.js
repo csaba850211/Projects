@@ -870,8 +870,8 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
     }
 
     if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "tharr") { /* ranagol paplovag értékei!!! */
-    alert("A választott kaszton belül csak papok tevékenykednek, lovagrendje nincsen!");
-    window.location.reload();
+        alert("A választott kaszton belül csak papok tevékenykednek, lovagrendje nincsen!");
+        window.location.reload();
 
     }
 
@@ -1003,6 +1003,41 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("kepzettseg10").innerHTML = "Heraldika"
         document.getElementById("kepzettseg10fok").innerHTML = "Af"
     }
+
+    if (document.getElementById("kasztselector").value == "tolvaj") { /*tolvaj képzettségei*/
+        document.getElementById("kepzettseg1").innerHTML = "2 Fegyver használata"
+        document.getElementById("kepzettseg1fok").innerHTML = "Af"
+        document.getElementById("kepzettseg2").innerHTML = "Fegyverdobás"
+        document.getElementById("kepzettseg2fok").innerHTML = "Af"
+        document.getElementById("kepzettseg3").innerHTML = "3 Nyelv ismerete"
+        document.getElementById("kepzettseg3fok").innerHTML = "Af 3, 2, 2"
+        document.getElementById("kepzettseg4").innerHTML = "Kocsmai verekedés"
+        document.getElementById("kepzettseg4fok").innerHTML = "Af"
+        document.getElementById("kepzettseg5").innerHTML = "Értékbecslés"
+        document.getElementById("kepzettseg5fok").innerHTML = "Af"
+        document.getElementById("kepzettseg6").innerHTML = "Mászás"
+        document.getElementById("kepzettseg6fok").innerHTML = "45%"
+        document.getElementById("kepzettseg7").innerHTML = "Esés"
+        document.getElementById("kepzettseg7fok").innerHTML = "15%"
+        document.getElementById("kepzettseg8").innerHTML = "Zárnyitás"
+        document.getElementById("kepzettseg8fok").innerHTML = "25%"
+        document.getElementById("kepzettseg9").innerHTML = "Ugrás"
+        document.getElementById("kepzettseg9fok").innerHTML = "10%"
+        document.getElementById("kepzettseg10").innerHTML = "Lopózás"
+        document.getElementById("kepzettseg10fok").innerHTML = "30%"
+        document.getElementById("kepzettseg10").innerHTML = "Rejtőzködés"
+        document.getElementById("kepzettseg10fok").innerHTML = "15%"
+        document.getElementById("kepzettseg10").innerHTML = "Kötéltánc"
+        document.getElementById("kepzettseg10fok").innerHTML = "25%"
+        document.getElementById("kepzettseg10").innerHTML = "Zsebmetszés"
+        document.getElementById("kepzettseg10fok").innerHTML = "35%"
+        document.getElementById("kepzettseg10").innerHTML = "Csapdafelfedezés"
+        document.getElementById("kepzettseg10fok").innerHTML = "25%"
+        document.getElementById("kepzettseg10").innerHTML = "Titkosajtó keresés"
+        document.getElementById("kepzettseg10fok").innerHTML = "15%"
+
+    }
+
 
     if (document.getElementById("kasztselector").value == "bard") { /*bárd képzettségei*/
         document.getElementById("kepzettseg1").innerHTML = "4 Fegyver használat"
