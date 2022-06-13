@@ -904,6 +904,175 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
 
     }
 
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "antoh") { /* antoh paplovag értékei!!! */
+        alert("A választott kaszton belül csak papok tevékenykednek, lovagrendje nincsen!");
+        window.location.reload();
+
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "arel") { /* arel paplovag értékei!!! */
+        alert("A választott kaszton belül csak papok tevékenykednek, lovagrendje nincsen!");
+        window.location.reload();
+
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "darton") { /* darton paplovag értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 20 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 75 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 8 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 7 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 5);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "Birkózás: Af, Fegyvertörés: Af, Méregkeverés-semlegesítés: Af, Csapdaállítás: Af, Kocsmai verekedés: Af, Hamiskártya: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "della") { /* della paplovag értékei!!! */
+        alert("A választott kaszton belül csak papok tevékenykednek, lovagrendje nincsen!");
+        window.location.reload();
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "dreina") { /* dreina paplovag értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 20 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 75 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 8 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 7 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 5);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "(*Az Oroszlánszív Lovagrend képzettségei!) Hadvezetés: Mf, Fegyvferismeret: Af, Fegyvertörés: Af, Térképészet: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "ellana") { /* ellana paplovag értékei!!! */
+        alert("A választott kaszton belül csak papok tevékenykednek, lovagrendje nincsen!");
+        window.location.reload();
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "gilron") { /* gilron paplovag értékei!!! */
+        alert("A választott kaszton belül csak papok tevékenykednek, lovagrendje nincsen!");
+        window.location.reload();
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "krad") { /* krad paplovag értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 20 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 75 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 8 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 7 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 5);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "Kultúra: Af, Helyismeret: 30%, 2 Nyelv ismerete: Af 2, 3, Legendaismeret: Af, Sebgyógyítás: Af, Nyomolvasás-eltüntetés: Af, Úszás: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "kyel") { /* kyel paplovag értékei!!! */
+        alert("A választott kaszton belül csak papok tevékenykednek, lovagrendje nincsen!");
+        window.location.reload();
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "noir") { /* noir paplovag értékei!!! */
+        alert("A választott kaszton belül csak papok tevékenykednek, lovagrendje nincsen!");
+        window.location.reload();
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "orwella") { /* orwella paplovag értékei!!! */
+        alert("A választott kaszton belül csak papok tevékenykednek, lovagrendje nincsen!");
+        window.location.reload();
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "uwel") { /* uwel paplovag értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 20 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 75 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 8 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 7 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 5);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "Ökölharc: Af, Időjóslás: Af, Sebgyógyítás: Af, Nyomolvasás-eltüntetés: Af, Csomózás: Af, Esés: 20%";
+    }
+
+    if (document.getElementById("kasztselector").value == "harcmuvesz" && document.getElementById("fajselector").value == "ember") { /* harcművész paplovag értékei!!! */
+        document.getElementById("ke").innerHTML = 10 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 20 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 75 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 4 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 8 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 5);
+        document.getElementById("mana").innerHTML = 0;
+        document.getElementById("pszi").innerHTML = 6 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "Túlütésnél a puszta kezével is tud Ép-re sebezni";
+    }
+
+    if (document.getElementById("kasztselector").value == "harcmuvesz" && document.getElementById("fajselector").value == "felelf") { /* harcművész paplovag értékei!!! */
+        document.getElementById("ke").innerHTML = 10 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 20 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 75 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 10 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 4 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 8 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 5);
+        document.getElementById("mana").innerHTML = 0;
+        document.getElementById("pszi").innerHTML = 6 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "Túlütésnél a puszta kezével is tud Ép-re sebezni, 1,5x hallás, 2x látás, Állóképesség -10 órányi futás, Lovaglás: Mf, Idomítás: Mf";
+    }
+
+    if (document.getElementById("kasztselector").value == "harcmuvesz" && document.getElementById("fajselector").value == "elf") { /* harcművész kivételek */
+        alert("A választott kaszt nem lehet az adott faj!");
+        window.location.reload();
+    }
+
+    if (document.getElementById("kasztselector").value == "harcmuvesz" && document.getElementById("fajselector").value == "torpe") { /* harcművész kivételek */
+        alert("A választott kaszt nem lehet az adott faj!");
+        window.location.reload();
+    }
+
+    if (document.getElementById("kasztselector").value == "harcmuvesz" && document.getElementById("fajselector").value == "ork") { /* harcművész kivételek */
+        alert("A választott kaszt nem lehet az adott faj!");
+        window.location.reload();
+    }
+
+    if (document.getElementById("kasztselector").value == "kardmuvesz" && document.getElementById("fajselector").value == "ember") { /* kardművész paplovag értékei!!! */
+        document.getElementById("ke").innerHTML = 10 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 20 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 75 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 4 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 8 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 5);
+        document.getElementById("mana").innerHTML = 0;
+        document.getElementById("pszi").innerHTML = 6 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "";
+    }
+
+    if (document.getElementById("kasztselector").value == "kardmuvesz" && document.getElementById("fajselector").value == "felelf") { /* kardművész paplovag értékei!!! */
+        document.getElementById("ke").innerHTML = 10 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 20 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 75 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 10 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 4 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 8 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 5);
+        document.getElementById("mana").innerHTML = 0;
+        document.getElementById("pszi").innerHTML = 6 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "1,5x hallás, 2x látás, Állóképesség -10 órányi futás, Lovaglás: Mf, Idomítás: Mf";
+    }
+
+    if (document.getElementById("kasztselector").value == "kardmuvesz" && document.getElementById("fajselector").value == "elf") { /* kardművész kivételek */
+        alert("A választott kaszt nem lehet az adott faj!");
+        window.location.reload();
+    }
+
+    if (document.getElementById("kasztselector").value == "kardmuvesz" && document.getElementById("fajselector").value == "torpe") { /* kardművész kivételek */
+        alert("A választott kaszt nem lehet az adott faj!");
+        window.location.reload();
+    }
+
+    if (document.getElementById("kasztselector").value == "kardmuvesz" && document.getElementById("fajselector").value == "ork") { /* kardművész kivételek */
+        alert("A választott kaszt nem lehet az adott faj!");
+        window.location.reload();
+    }
+
+
 
     if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "elf") { /* paplovag kivételek */
         alert("A választott kaszton belül csak ember faj lehetséges!");
