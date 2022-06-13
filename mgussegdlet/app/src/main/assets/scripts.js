@@ -872,6 +872,35 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
     if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "tharr") { /* ranagol paplovag értékei!!! */
         alert("A választott kaszton belül csak papok tevékenykednek, lovagrendje nincsen!");
         window.location.reload();
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "sogron") { /* sogron paplovag értékei!!! */
+        document.getElementById("ke").innerHTML = 6 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 20 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 75 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 8 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 7 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 5);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "(*Főnix Lovagok képzettségei!) 3 Fegyver használata: Af, Hadrend: Af, Pszi: Mf, Írás-olvasás: Af, Sebgyógyítás: Af, Vallásismeret (Sogron): Af, Emberrismeret: Af, Hajózás: Af, Úszás: Af, Futás: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "morgana") { /* morgena paplovag értékei!!! */
+        alert("A választott kaszton belül csak papok tevékenykednek, lovagrendje nincsen!");
+        window.location.reload();
+
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "adron") { /* adron paplovag értékei!!! */
+        alert("A választott kaszton belül csak papok tevékenykednek, lovagrendje nincsen!");
+        window.location.reload();
+
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "alborne") { /* alborne paplovag értékei!!! */
+        alert("A választott kaszton belül csak papok tevékenykednek, lovagrendje nincsen!");
+        window.location.reload();
 
     }
 
