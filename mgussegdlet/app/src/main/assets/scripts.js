@@ -557,8 +557,357 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("egyeb").innerHTML = "Alkímia: Af, Mágiahasználat: Af, Legendaismeret: Mf, Sebgyógyítás: Mf, Ősi nyelv ismerete: Af";
     }
 
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "alborne") { /*alborne pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 17 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "Fegyverismeret: Af, Nyelvismeret: Af 3, 2, Történelemismeret: Mf, Legendaismeret: Af, Herbalizmus: Af, Szexuális kultúra: Af, Éneklés-zenélés: Af, Művészettörténet: Mf";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "alborne") { /*alborne pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 17 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "Fegyverismeret: Af, Nyelvismeret: Af 3, 2, Történelemismeret: Mf, Legendaismeret: Af, Herbalizmus: Af, Szexuális kultúra: Af, Éneklés-zenélés: Af, Művészettörténet: Mf";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "antoh") { /*antoh pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 17 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "2 Fegyverhasználat: Af, Időjóslás: Mf, Térképészet: Af, Vadászat-halászat: Af, Úszás: Mf, Hajózás: Mf, Csomózás: Af, Tengerjárás: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "antoh") { /*antoh pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 17 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "2 Fegyverhasználat: Af, Időjóslás: Mf, Térképészet: Af, Vadászat-halászat: Af, Úszás: Mf, Hajózás: Mf, Csomózás: Af, Tengerjárás: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "arel") { /*arel pap értékei!!! */
+        document.getElementById("ke").innerHTML = 9 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 18 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 73 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = document.getElementById("ugyesseg").innerHTML;
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "Fegyverhasználat: Af, Fegyverhasználat(Íj): Mf, Fegyverismeret: Af, Legendaismeret: Af, Sebgyógyítás: Af, Herbalizmus: Af, Időjóslás: Af, Vadászat: Mf, Erdőjárás: Mf, Solymászat: Mf, Lovaglás: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "arel") { /*arel pap értékei!!! */
+        document.getElementById("ke").innerHTML = 9 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 18 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 73 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = document.getElementById("ugyesseg").innerHTML;
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "Fegyverhasználat: Af, Fegyverhasználat(Íj): Mf, Fegyverismeret: Af, Legendaismeret: Af, Sebgyógyítás: Af, Herbalizmus: Af, Időjóslás: Af, Vadászat: Mf, Erdőjárás: Mf, Solymászat: Mf, Lovaglás: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "darton") { /*darton pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 17 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "2 Fegyver használata: Af, Fegyverdobás: Af, Mágiaismeret(Nekromancia): Af, Sebgyógyítás: Af, Élettan: Af, Balzsamozás: Af, Ének-zene: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "darton") { /*darton pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 17 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "2 Fegyver használata: Af, Fegyverdobás: Af, Mágiaismeret(Nekromancia): Af, Sebgyógyítás: Af, Élettan: Af, Balzsamozás: Af, Ének-zene: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "della") { /*della pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 15 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 65 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "Nyelvismeret: Af 4, Művészet(választott): Mf, Művészet(választott): Af, Legendaismeret: Af, Művészettörténet: Af, Etikett: Af, Értékbecslés: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "della") { /*della pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 15 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 65 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "Nyelvismeret: Af 4, Művészet(választott): Mf, Művészet(választott): Af, Legendaismeret: Af, Művészettörténet: Af, Etikett: Af, Értékbecslés: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "dreina") { /*dreina pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 17 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "Nyelvtudás: Af 4, Legendaismeret: Af, Etikett: Af, Tánc: Af, Értékbecslés: Af, Ének-zene: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "dreina") { /*dreina pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 17 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "Nyelvtudás: Af 4, Legendaismeret: Af, Etikett: Af, Tánc: Af, Értékbecslés: Af, Ének-zene: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "ellana") { /*ellana pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 17 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "2 Fegyverhasználat(Tőrkard, tőr): Mf, Írás-olvasás: Mf, Kultúra: Af, Helyismeret: 30%, 4 Nyelv ismerete: Af 5, 5, 4, 3, Heraldika: Af, Legendaismeret: Af, Vallásismeret(Pyarroni): Mf, Méregkeverés-semlegesítés: Af, Etikett: Af, Szexuális kultúra: Mf, Ének-zene: Af, Tánc(udvari): Mf, Herbalizmus: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "ellana") { /*ellana pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 17 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "2 Fegyverhasználat(Tőrkard, tőr): Mf, Írás-olvasás: Mf, Kultúra: Af, Helyismeret: 30%, 4 Nyelv ismerete: Af 5, 5, 4, 3, Heraldika: Af, Legendaismeret: Af, Vallásismeret(Pyarroni): Mf, Méregkeverés-semlegesítés: Af, Etikett: Af, Szexuális kultúra: Mf, Ének-zene: Af, Tánc(udvari): Mf, Herbalizmus: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "gilron") { /*gilron pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 17 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "(*A segédek képzettségei!) Fegyverismeret: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "gilron") { /*gilron pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 17 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "(*A segédek képzettségei!) Fegyverismeret: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "krad") { /*krad pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 17 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "(*A kutatók képzettségei!) 2 Nyelv ismerete: Af 2, 3, Ősi nyelv ismerete: Af, Heraldika: Af, Legendaismeret: Af, Építészet: Af, Etikett: Af, Lovaglás: Af, Csapdafelfedezés: 10%, Titkosajtó keresés: 10%";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "krad") { /*krad pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 17 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "(*A kutatók képzettségei!) 2 Nyelv ismerete: Af 2, 3, Ősi nyelv ismerete: Af, Heraldika: Af, Legendaismeret: Af, Építészet: Af, Etikett: Af, Lovaglás: Af, Csapdafelfedezés: 10%, Titkosajtó keresés: 10%";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "kyel") { /*kyel pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 20 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 75 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0;
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "Fegyverhasználat(csak buzogány-féle): Af, Pajzshasználat: Af, Lefegyverzés: Af, Nehézvért viselet: Af, Hadvezetés: Af, Nyelvtudás: Af 3, Térképészet: Af, Sebgyógyítás: Af, Pszi: Af, Etikett: Af, Esés: 15%";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "kyel") { /*kyel pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 20 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 75 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0;
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "Fegyverhasználat(csak buzogány-féle): Af, Pajzshasználat: Af, Lefegyverzés: Af, Nehézvért viselet: Af, Hadvezetés: Af, Nyelvtudás: Af 3, Térképészet: Af, Sebgyógyítás: Af, Pszi: Af, Etikett: Af, Esés: 15%";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "noir") { /*noir pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 16 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 5 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 5 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "(*Befogadott képzettségei!) Antissjárás: Af, Herbalizmus: Af, Legendaismeret: Af, Kultúra: Af, Helyismeret: 35%";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "noir") { /*noir pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 16 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 5 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 5 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "(*Befogadott képzettségei!) Antissjárás: Af, Herbalizmus: Af, Legendaismeret: Af, Kultúra: Af, Helyismeret: 35%";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "orwella") { /*orwella pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 17 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "(*A Pusztító Erő Útjának képzettségei!) Nyelv ismeret: Af 4, Történelemismeret: Mf, 2 Fegyver használata: Af, Fegyverdobás: Af, Méregkeverés: Af, Lefegyverzés: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "orwella") { /*orwella pap értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 17 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 72 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 6 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 2);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "(*A Pusztító Erő Útjának képzettségei!) Nyelv ismeret: Af 4, Történelemismeret: Mf, 2 Fegyver használata: Af, Fegyverdobás: Af, Méregkeverés: Af, Lefegyverzés: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "domvik") { /* domvik paplovag értékei!!! */
+        document.getElementById("ke").innerHTML = 8 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 18 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 73 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 5 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 5 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 4);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "(*A boszorkányvadász képzettségei!) 2 Fegyver használata (Mendra, Kínzókés) Af, Fegyverhasználat: Af, Kultúra (Shadoni): Mf, Helyismeret (saját): 60%, Erkölcs: Mf, Pszi: Mf, 3 Nyelv ismerete (Shadoni, Gorviki, Nomád): Af 5, 3, 3, Írás-olvasás: Af, Vallásismeret (Domvik): Af, Történelemismeret: Af, Heraldika: Af, Lovaglás: Af, Ősi nyelv ismerete (Lingua Domini): Af, Mágiaismerret (Boszorkány): Af, Álcázás-álruha: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "ranagol") { /* ranagol paplovag értékei!!! */
+        document.getElementById("ke").innerHTML = 5 + (document.getElementById("gyorsasag").innerHTML - 10);
+        document.getElementById("te").innerHTML = 20 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
+        document.getElementById("ve").innerHTML = 75 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ce").innerHTML = 0 + (document.getElementById("ugyesseg").innerHTML - 10);
+        document.getElementById("ep").innerHTML = 8 + (document.getElementById("egeszseg").innerHTML - 10);
+        document.getElementById("fp").innerHTML = 7 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 5);
+        document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("egyeb").innerHTML = "(*A boszorkányvadász képzettségei!) 2 Fegyver használata (Mendra, Kínzókés) Af, Fegyverhasználat: Af, Kultúra (Shadoni): Mf, Helyismeret (saját): 60%, Erkölcs: Mf, Pszi: Mf, 3 Nyelv ismerete (Shadoni, Gorviki, Nomád): Af 5, 3, 3, Írás-olvasás: Af, Vallásismeret (Domvik): Af, Történelemismeret: Af, Heraldika: Af, Lovaglás: Af, Ősi nyelv ismerete (Lingua Domini): Af, Mágiaismerret (Boszorkány): Af, Álcázás-álruha: Af";
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "tharr") { /* ranagol paplovag értékei!!! */
+    alert("A választott kaszton belül csak papok tevékenykednek, lovagrendje nincsen!");
+    window.location.reload();
+
+    }
 
 
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "elf") { /* paplovag kivételek */
+        alert("A választott kaszton belül csak ember faj lehetséges!");
+        window.location.reload();
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "felelf") { /* paplovag kivételek */
+        alert("A választott kaszton belül csak ember faj lehetséges!");
+        window.location.reload();
+    }
+
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "torpe") { /* paplovag kivételek */
+        alert("A választott kaszton belül csak ember faj lehetséges!");
+        window.location.reload();
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ork") { /* paplovag kivételek */
+        alert("A választott kaszton belül csak ember faj lehetséges!");
+        window.location.reload();
+    }
+
+
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "uwel") {
+        alert("A választott valláson belül csak paplovagok szolgálnak, papok nem!");
+        window.location.reload();
+    }
+
+    if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "uwel") {
+        alert("A választott valláson belül csak paplovagok szolgálnak, papok nem!");
+        window.location.reload();
+    }
 
 
     if (document.getElementById("kasztselector").value == "harcos") { /*harcos képzettségei*/
