@@ -163,6 +163,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 7 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 4);
         document.getElementById("egyeb").innerHTML = "Lovaglás: Mf, Erdőjárás: Mf, Idomítás: Mf, Hőlátás, 2x hallás, 2,5x látás";
+
+        
+
     }
 
     if (document.getElementById("kasztselector").value == "harcos" && document.getElementById("fajselector").value == "ember") { /*harcos értékei!!! */
