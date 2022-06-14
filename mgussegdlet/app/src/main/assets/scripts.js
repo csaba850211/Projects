@@ -1650,7 +1650,7 @@ function dice() {
         document.getElementById("ugyesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
         document.getElementById("allokepesseg").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
         document.getElementById("egeszseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
-        document.getElementById("szepseg").innerHTML =  (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("szepseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
         document.getElementById("intelligencia").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
         document.getElementById("akaratero").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));;
         document.getElementById("asztral").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
@@ -1669,15 +1669,135 @@ function dice() {
     }
 
     if (document.getElementById("kasztselector").value == "lovag") {
-        document.getElementById("ero").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
-        document.getElementById("gyorsasag").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
+        document.getElementById("ero").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
+        document.getElementById("gyorsasag").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("ugyesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("allokepesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
+        document.getElementById("egeszseg").innerHTML = (Math.round(Math.random() * 10 + 1)) + 10;
+        document.getElementById("szepseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("intelligencia").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("akaratero").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("asztral").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+    }
+
+    if (document.getElementById("kasztselector").value == "tolvaj") {
+        document.getElementById("ero").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("gyorsasag").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("ugyesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
+        document.getElementById("allokepesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("egeszseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("szepseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("intelligencia").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("akaratero").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("asztral").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+    }
+
+    if (document.getElementById("kasztselector").value == "bard") {
+        document.getElementById("ero").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("gyorsasag").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
         document.getElementById("ugyesseg").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("allokepesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("egeszseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("szepseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
+        document.getElementById("intelligencia").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("akaratero").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("asztral").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+    }
+
+    if (document.getElementById("kasztselector").value == "pap") {
+        document.getElementById("ero").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("gyorsasag").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("ugyesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("allokepesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("egeszseg").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("szepseg").innerHTML = (Math.round(Math.random() * 10 + 1)) + 9;
+        document.getElementById("intelligencia").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("akaratero").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("asztral").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
+    }
+
+    if (document.getElementById("kasztselector").value == "paplovag") {
+        document.getElementById("ero").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("gyorsasag").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("ugyesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("allokepesseg").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("egeszseg").innerHTML = (Math.round(Math.random() * 10 + 1)) + 10;
+        document.getElementById("szepseg").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("intelligencia").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("akaratero").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("asztral").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
+    }
+
+    if (document.getElementById("kasztselector").value == "harcmuvesz") {
+        document.getElementById("ero").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("gyorsasag").innerHTML = (Math.round(Math.random() * 6 + 1)) + 13;
+        document.getElementById("ugyesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
         document.getElementById("allokepesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
         document.getElementById("egeszseg").innerHTML = (Math.round(Math.random() * 10 + 1)) + 10;
         document.getElementById("szepseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
         document.getElementById("intelligencia").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
-        document.getElementById("akaratero").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("akaratero").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
+        document.getElementById("asztral").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+    }
+
+    if (document.getElementById("kasztselector").value == "kardmuvesz") {
+        document.getElementById("ero").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("gyorsasag").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
+        document.getElementById("ugyesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + 13;
+        document.getElementById("allokepesseg").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("egeszseg").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("szepseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("intelligencia").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("akaratero").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
+        document.getElementById("asztral").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+    }
+
+    if (document.getElementById("kasztselector").value == "boszorkany") {
+        document.getElementById("ero").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("gyorsasag").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("ugyesseg").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("allokepesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("egeszseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("szepseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + 13;
+        document.getElementById("intelligencia").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("akaratero").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("asztral").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
+    }
+
+    if (document.getElementById("kasztselector").value == "boszorkanymester") {
+        document.getElementById("ero").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("gyorsasag").innerHTML = (Math.round(Math.random() * 10 + 1)) + 8;
+        document.getElementById("ugyesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
+        document.getElementById("allokepesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("egeszseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("szepseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("intelligencia").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("akaratero").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("asztral").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
+    }
+
+    if (document.getElementById("kasztselector").value == "tuzvarazslo") {
+        document.getElementById("ero").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("gyorsasag").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("ugyesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("allokepesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("egeszseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("szepseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("intelligencia").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+        document.getElementById("akaratero").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
         document.getElementById("asztral").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + 6;
+    }
+
+    if (document.getElementById("kasztselector").value == "varazslo") {
+        document.getElementById("ero").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("gyorsasag").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("ugyesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("allokepesseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("egeszseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("szepseg").innerHTML = (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1)) + (Math.round(Math.random() * 6 + 1));
+        document.getElementById("intelligencia").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
+        document.getElementById("akaratero").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
+        document.getElementById("asztral").innerHTML = (Math.round(Math.random() * 6 + 1)) + 12;
     }
 
 
