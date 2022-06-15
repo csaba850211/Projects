@@ -1419,6 +1419,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "(*Főnix Lovagok képzettségei!) 3 Fegyver használata: Af, Hadrend: Af, Pszi: Mf, Írás-olvasás: Af, Sebgyógyítás: Af, Vallásismeret (Sogron): Af, Emberrismeret: Af, Hajózás: Af, Úszás: Af, Futás: Af";
+        document.getElementById("maxhm").innerHTML = 9;
+        document.getElementById("hmlimit").innerHTML = 9;
+
     }
 
     if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "morgana") { /* morgena paplovag értékei!!! */
@@ -1961,16 +1964,16 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("kepzettseg9fok").innerHTML = "10%"
         document.getElementById("kepzettseg10").innerHTML = "Lopózás"
         document.getElementById("kepzettseg10fok").innerHTML = "30%"
-        document.getElementById("kepzettseg10").innerHTML = "Rejtőzködés"
-        document.getElementById("kepzettseg10fok").innerHTML = "15%"
-        document.getElementById("kepzettseg10").innerHTML = "Kötéltánc"
-        document.getElementById("kepzettseg10fok").innerHTML = "25%"
-        document.getElementById("kepzettseg10").innerHTML = "Zsebmetszés"
-        document.getElementById("kepzettseg10fok").innerHTML = "35%"
-        document.getElementById("kepzettseg10").innerHTML = "Csapdafelfedezés"
-        document.getElementById("kepzettseg10fok").innerHTML = "25%"
-        document.getElementById("kepzettseg10").innerHTML = "Titkosajtó keresés"
-        document.getElementById("kepzettseg10fok").innerHTML = "15%"
+        document.getElementById("kepzettseg11").innerHTML = "Rejtőzködés"
+        document.getElementById("kepzettseg11fok").innerHTML = "15%"
+        document.getElementById("kepzettseg12").innerHTML = "Kötéltánc"
+        document.getElementById("kepzettseg12fok").innerHTML = "25%"
+        document.getElementById("kepzettseg13").innerHTML = "Zsebmetszés"
+        document.getElementById("kepzettseg13fok").innerHTML = "35%"
+        document.getElementById("kepzettseg14").innerHTML = "Csapdafelfedezés"
+        document.getElementById("kepzettseg14fok").innerHTML = "25%"
+        document.getElementById("kepzettseg15").innerHTML = "Titkosajtó keresés"
+        document.getElementById("kepzettseg15fok").innerHTML = "15%"
 
     }
 
