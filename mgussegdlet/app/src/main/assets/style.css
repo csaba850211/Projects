@@ -1,5 +1,5 @@
 #divek {
-    opacity: 0.95;
+    opacity: 0.85;
     padding: 4px;
     border-color: black;
     border: solid;
@@ -11,7 +11,7 @@
 }
 
 #divszalagcim {
-  opacity: 0.95;
+  opacity: 0.85;
   padding: 4px;
   border-color: black;
   border: solid;
@@ -20,14 +20,18 @@
   font-size: 10px;
   text-align: right;
 
-  background: linear-gradient(-45deg, #a91f1f, #0f0c0d, #d5d51c, #f2f8f6);
+  background: linear-gradient(-45deg, #c2adad, #0f0c0d, #525855, #41544d);
   background-size: 400%, 400%;
   animation: gradient 15s ease infinite;
 
 }
 
 tr {
-  opacity: 0.95;
+  opacity: 0.85;
+}
+
+td {
+  border-radius: 3px;
 }
 
 @keyframes gradient {
@@ -46,5 +50,6 @@ body {
   background-image: url("htmlmedia/ynev_poszter_lowres.jpg");
   background-size: 200%;
   background-position: center;
+  backdrop-filter: blur(2px);
 }
 
