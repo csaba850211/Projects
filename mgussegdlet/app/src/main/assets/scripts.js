@@ -585,6 +585,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Ősi nyelv (Lingua Domini): Mf, Méregsemlegesítés: Mf";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "felelf") { /*pap értékei!!! */
@@ -602,6 +605,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Ősi nyelv (Lingua Domini): Mf, Méregsemlegesítés: Mf";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ork") { /*pap értékei!!! */
@@ -619,6 +625,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Hátbaszúrás: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "ranagol") { /*ranagol pap értékei!!! */
@@ -631,6 +640,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Hátbaszúrás: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "tharr") { /*tharr pap értékei!!! */
@@ -643,6 +655,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "3 Fegyver használata: Af, Fegyverdobás: Af, Ősi nyelv ismerete: Mf, Méregkeverés/semlegesítés: Af, Hátbaszúrás: Af, Alkímia: Af, Demonológia: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "tharr") { /*tharr pap értékei!!! */
@@ -655,6 +670,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "3 Fegyver használata: Af, Fegyverdobás: Af, Ősi nyelv ismerete: Mf, Méregkeverés/semlegesítés: Af, Hátbaszúrás: Af, Alkímia: Af, Demonológia: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "sogron") { /*sogron pap értékei!!! */
@@ -667,6 +685,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "(*Őstüzek Urai Szekta képzettségei!) Írás-olvasás: Mf, Toroni nyelv: Af 3, Ősi nyelv (kyr) ismerete: Af, Heraldika: Af, Etikett: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "sogron") { /*sogron pap értékei!!! */
@@ -679,6 +700,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "(*Őstüzek Urai Szekta képzettségei!) Írás-olvasás: Mf, Toroni nyelv: Af 3, Ősi nyelv (kyr) ismerete: Af, Heraldika: Af, Etikett: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "morgana") { /*morgena pap értékei!!! */
@@ -691,6 +715,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "(*Angyalok Szekta képzettségei!) 2 Hely ismerete: Af, Szexuális kultúra: Af, Antissjárás: Af, Méregkeverés-semlegesítés: Af, Ének-zene: Af, Álcázás-álruha: Af, Etikett: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "morgana") { /*morgena pap értékei!!! */
@@ -703,6 +730,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "(*Angyalok Szekta képzettségei!) 2 Hely ismerete: Af, Szexuális kultúra: Af, Antissjárás: Af, Méregkeverés-semlegesítés: Af, Ének-zene: Af, Álcázás-álruha: Af, Etikett: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "adron") { /*adron pap értékei!!! */
@@ -715,6 +745,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Alkímia: Af, Mágiahasználat: Af, Legendaismeret: Mf, Sebgyógyítás: Mf, Ősi nyelv ismerete: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "adron") { /*adron pap értékei!!! */
@@ -727,6 +760,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Alkímia: Af, Mágiahasználat: Af, Legendaismeret: Mf, Sebgyógyítás: Mf, Ősi nyelv ismerete: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "alborne") { /*alborne pap értékei!!! */
@@ -739,6 +775,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Fegyverismeret: Af, Nyelvismeret: Af 3, 2, Történelemismeret: Mf, Legendaismeret: Af, Herbalizmus: Af, Szexuális kultúra: Af, Éneklés-zenélés: Af, Művészettörténet: Mf";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "alborne") { /*alborne pap értékei!!! */
@@ -751,6 +790,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Fegyverismeret: Af, Nyelvismeret: Af 3, 2, Történelemismeret: Mf, Legendaismeret: Af, Herbalizmus: Af, Szexuális kultúra: Af, Éneklés-zenélés: Af, Művészettörténet: Mf";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "antoh") { /*antoh pap értékei!!! */
@@ -763,6 +805,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "2 Fegyverhasználat: Af, Időjóslás: Mf, Térképészet: Af, Vadászat-halászat: Af, Úszás: Mf, Hajózás: Mf, Csomózás: Af, Tengerjárás: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "antoh") { /*antoh pap értékei!!! */
@@ -775,6 +820,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "2 Fegyverhasználat: Af, Időjóslás: Mf, Térképészet: Af, Vadászat-halászat: Af, Úszás: Mf, Hajózás: Mf, Csomózás: Af, Tengerjárás: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "arel") { /*arel pap értékei!!! */
@@ -787,6 +835,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Fegyverhasználat: Af, Fegyverhasználat(Íj): Mf, Fegyverismeret: Af, Legendaismeret: Af, Sebgyógyítás: Af, Herbalizmus: Af, Időjóslás: Af, Vadászat: Mf, Erdőjárás: Mf, Solymászat: Mf, Lovaglás: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "arel") { /*arel pap értékei!!! */
@@ -799,6 +850,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Fegyverhasználat: Af, Fegyverhasználat(Íj): Mf, Fegyverismeret: Af, Legendaismeret: Af, Sebgyógyítás: Af, Herbalizmus: Af, Időjóslás: Af, Vadászat: Mf, Erdőjárás: Mf, Solymászat: Mf, Lovaglás: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "darton") { /*darton pap értékei!!! */
@@ -811,6 +865,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "2 Fegyver használata: Af, Fegyverdobás: Af, Mágiaismeret(Nekromancia): Af, Sebgyógyítás: Af, Élettan: Af, Balzsamozás: Af, Ének-zene: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "darton") { /*darton pap értékei!!! */
@@ -823,6 +880,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "2 Fegyver használata: Af, Fegyverdobás: Af, Mágiaismeret(Nekromancia): Af, Sebgyógyítás: Af, Élettan: Af, Balzsamozás: Af, Ének-zene: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "della") { /*della pap értékei!!! */
@@ -835,6 +895,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Nyelvismeret: Af 4, Művészet(választott): Mf, Művészet(választott): Af, Legendaismeret: Af, Művészettörténet: Af, Etikett: Af, Értékbecslés: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "della") { /*della pap értékei!!! */
@@ -847,6 +910,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Nyelvismeret: Af 4, Művészet(választott): Mf, Művészet(választott): Af, Legendaismeret: Af, Művészettörténet: Af, Etikett: Af, Értékbecslés: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "dreina") { /*dreina pap értékei!!! */
@@ -859,6 +925,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Nyelvtudás: Af 4, Legendaismeret: Af, Etikett: Af, Tánc: Af, Értékbecslés: Af, Ének-zene: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "dreina") { /*dreina pap értékei!!! */
@@ -871,6 +940,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Nyelvtudás: Af 4, Legendaismeret: Af, Etikett: Af, Tánc: Af, Értékbecslés: Af, Ének-zene: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "ellana") { /*ellana pap értékei!!! */
@@ -883,6 +955,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "2 Fegyverhasználat(Tőrkard, tőr): Mf, Írás-olvasás: Mf, Kultúra: Af, Helyismeret: 30%, 4 Nyelv ismerete: Af 5, 5, 4, 3, Heraldika: Af, Legendaismeret: Af, Vallásismeret(Pyarroni): Mf, Méregkeverés-semlegesítés: Af, Etikett: Af, Szexuális kultúra: Mf, Ének-zene: Af, Tánc(udvari): Mf, Herbalizmus: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "ellana") { /*ellana pap értékei!!! */
@@ -895,6 +970,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "2 Fegyverhasználat(Tőrkard, tőr): Mf, Írás-olvasás: Mf, Kultúra: Af, Helyismeret: 30%, 4 Nyelv ismerete: Af 5, 5, 4, 3, Heraldika: Af, Legendaismeret: Af, Vallásismeret(Pyarroni): Mf, Méregkeverés-semlegesítés: Af, Etikett: Af, Szexuális kultúra: Mf, Ének-zene: Af, Tánc(udvari): Mf, Herbalizmus: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "gilron") { /*gilron pap értékei!!! */
@@ -907,6 +985,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "(*A segédek képzettségei!) Fegyverismeret: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "gilron") { /*gilron pap értékei!!! */
@@ -919,6 +1000,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "(*A segédek képzettségei!) Fegyverismeret: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "krad") { /*krad pap értékei!!! */
@@ -931,6 +1015,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "(*A kutatók képzettségei!) 2 Nyelv ismerete: Af 2, 3, Ősi nyelv ismerete: Af, Heraldika: Af, Legendaismeret: Af, Építészet: Af, Etikett: Af, Lovaglás: Af, Csapdafelfedezés: 10%, Titkosajtó keresés: 10%";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "krad") { /*krad pap értékei!!! */
@@ -943,6 +1030,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "(*A kutatók képzettségei!) 2 Nyelv ismerete: Af 2, 3, Ősi nyelv ismerete: Af, Heraldika: Af, Legendaismeret: Af, Építészet: Af, Etikett: Af, Lovaglás: Af, Csapdafelfedezés: 10%, Titkosajtó keresés: 10%";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "kyel") { /*kyel pap értékei!!! */
@@ -955,6 +1045,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Fegyverhasználat(csak buzogány-féle): Af, Pajzshasználat: Af, Lefegyverzés: Af, Nehézvért viselet: Af, Hadvezetés: Af, Nyelvtudás: Af 3, Térképészet: Af, Sebgyógyítás: Af, Pszi: Af, Etikett: Af, Esés: 15%";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "kyel") { /*kyel pap értékei!!! */
@@ -967,6 +1060,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Fegyverhasználat(csak buzogány-féle): Af, Pajzshasználat: Af, Lefegyverzés: Af, Nehézvért viselet: Af, Hadvezetés: Af, Nyelvtudás: Af 3, Térképészet: Af, Sebgyógyítás: Af, Pszi: Af, Etikett: Af, Esés: 15%";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "noir") { /*noir pap értékei!!! */
@@ -979,6 +1075,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "(*Befogadott képzettségei!) Antissjárás: Af, Herbalizmus: Af, Legendaismeret: Af, Kultúra: Af, Helyismeret: 35%";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "noir") { /*noir pap értékei!!! */
@@ -991,6 +1090,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "(*Befogadott képzettségei!) Antissjárás: Af, Herbalizmus: Af, Legendaismeret: Af, Kultúra: Af, Helyismeret: 35%";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "orwella") { /*orwella pap értékei!!! */
@@ -1003,6 +1105,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "(*A Pusztító Erő Útjának képzettségei!) Nyelv ismeret: Af 4, Történelemismeret: Mf, 2 Fegyver használata: Af, Fegyverdobás: Af, Méregkeverés: Af, Lefegyverzés: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "torpe" && document.getElementById("vallasselector").value == "orwella") { /*orwella pap értékei!!! */
@@ -1015,6 +1120,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "(*A Pusztító Erő Útjának képzettségei!) Nyelv ismeret: Af 4, Történelemismeret: Mf, 2 Fegyver használata: Af, Fegyverdobás: Af, Méregkeverés: Af, Lefegyverzés: Af";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "domvik") { /* domvik paplovag értékei!!! */
@@ -1027,6 +1135,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "(*A boszorkányvadász képzettségei!) 2 Fegyver használata (Mendra, Kínzókés) Af, Fegyverhasználat: Af, Kultúra (Shadoni): Mf, Helyismeret (saját): 60%, Erkölcs: Mf, Pszi: Mf, 3 Nyelv ismerete (Shadoni, Gorviki, Nomád): Af 5, 3, 3, Írás-olvasás: Af, Vallásismeret (Domvik): Af, Történelemismeret: Af, Heraldika: Af, Lovaglás: Af, Ősi nyelv ismerete (Lingua Domini): Af, Mágiaismerret (Boszorkány): Af, Álcázás-álruha: Af";
+        document.getElementById("maxhm").innerHTML = 9;
+        document.getElementById("hmlimit").innerHTML = 9;
+
     }
 
     if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "ranagol") { /* ranagol paplovag értékei!!! */
@@ -1039,6 +1150,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "(*A boszorkányvadász képzettségei!) 2 Fegyver használata (Mendra, Kínzókés) Af, Fegyverhasználat: Af, Kultúra (Shadoni): Mf, Helyismeret (saját): 60%, Erkölcs: Mf, Pszi: Mf, 3 Nyelv ismerete (Shadoni, Gorviki, Nomád): Af 5, 3, 3, Írás-olvasás: Af, Vallásismeret (Domvik): Af, Történelemismeret: Af, Heraldika: Af, Lovaglás: Af, Ősi nyelv ismerete (Lingua Domini): Af, Mágiaismerret (Boszorkány): Af, Álcázás-álruha: Af";
+        document.getElementById("maxhm").innerHTML = 9;
+        document.getElementById("hmlimit").innerHTML = 9;
+
     }
 
     if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "tharr") { /* ranagol paplovag értékei!!! */
@@ -1098,6 +1212,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Birkózás: Af, Fegyvertörés: Af, Méregkeverés-semlegesítés: Af, Csapdaállítás: Af, Kocsmai verekedés: Af, Hamiskártya: Af";
+        document.getElementById("maxhm").innerHTML = 9;
+        document.getElementById("hmlimit").innerHTML = 9;
+
     }
 
     if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "della") { /* della paplovag értékei!!! */
@@ -1115,6 +1232,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "(*Az Oroszlánszív Lovagrend képzettségei!) Hadvezetés: Mf, Fegyvferismeret: Af, Fegyvertörés: Af, Térképészet: Af";
+        document.getElementById("maxhm").innerHTML = 9;
+        document.getElementById("hmlimit").innerHTML = 9;
+
     }
 
     if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "ellana") { /* ellana paplovag értékei!!! */
@@ -1137,6 +1257,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Kultúra: Af, Helyismeret: 30%, 2 Nyelv ismerete: Af 2, 3, Legendaismeret: Af, Sebgyógyítás: Af, Nyomolvasás-eltüntetés: Af, Úszás: Af";
+        document.getElementById("maxhm").innerHTML = 9;
+        document.getElementById("hmlimit").innerHTML = 9;
+
     }
 
     if (document.getElementById("kasztselector").value == "paplovag" && document.getElementById("fajselector").value == "ember" && document.getElementById("vallasselector").value == "kyel") { /* kyel paplovag értékei!!! */
@@ -1164,6 +1287,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 9 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Ökölharc: Af, Időjóslás: Af, Sebgyógyítás: Af, Nyomolvasás-eltüntetés: Af, Csomózás: Af, Esés: 20%";
+        document.getElementById("maxhm").innerHTML = 9;
+        document.getElementById("hmlimit").innerHTML = 9;
+
     }
 
     if (document.getElementById("kasztselector").value == "harcmuvesz" && document.getElementById("fajselector").value == "ember") { /* harcművész paplovag értékei!!! */
@@ -1176,6 +1302,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 0;
         document.getElementById("pszi").innerHTML = 6 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Túlütésnél a puszta kezével is tud Ép-re sebezni";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "harcmuvesz" && document.getElementById("fajselector").value == "felelf") { /* harcművész paplovag értékei!!! */
@@ -1188,6 +1317,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 0;
         document.getElementById("pszi").innerHTML = 6 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Túlütésnél a puszta kezével is tud Ép-re sebezni, 1,5x hallás, 2x látás, Állóképesség -10 órányi futás, Lovaglás: Mf, Idomítás: Mf";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "harcmuvesz" && document.getElementById("fajselector").value == "elf") { /* harcművész kivételek */
@@ -1215,6 +1347,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 0;
         document.getElementById("pszi").innerHTML = 6 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "kardmuvesz" && document.getElementById("fajselector").value == "felelf") { /* kardművész paplovag értékei!!! */
@@ -1227,6 +1362,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 0;
         document.getElementById("pszi").innerHTML = 6 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "1,5x hallás, 2x látás, Állóképesség -10 órányi futás, Lovaglás: Mf, Idomítás: Mf";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "kardmuvesz" && document.getElementById("fajselector").value == "elf") { /* kardművész kivételek */
@@ -1254,6 +1392,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 8 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Manapontjait a Hatalom italával nyeri, -3 egészségért, amit ki kell pihennie!";
+        document.getElementById("maxhm").innerHTML = 4;
+        document.getElementById("hmlimit").innerHTML = 4;
+
     }
 
     if (document.getElementById("kasztselector").value == "boszorkany" && document.getElementById("fajselector").value == "felelf") { /* boszorkány  értékei!!! */
@@ -1286,6 +1427,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 7 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Manapontjait a Hatalom italával nyeri, -3 egészségért, amit ki kell pihennie!";
+        document.getElementById("maxhm").innerHTML = 7;
+        document.getElementById("hmlimit").innerHTML = 7;
+
     }
 
     if (document.getElementById("kasztselector").value == "boszorkanymester" && document.getElementById("fajselector").value == "felelf") { /* boszorkánymeste értékei!!! */
@@ -1313,6 +1457,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 7 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Manapontjait a Hatalom italával nyeri, -3 egészségért, amit ki kell pihennie! Infralátás, Csapdafelfedezés 20%, Titkosajtó keresés 10%, Földalatti érzék, Kiváló szaglás";
+        document.getElementById("maxhm").innerHTML = 7;
+        document.getElementById("hmlimit").innerHTML = 7;
+
     }
 
     if (document.getElementById("kasztselector").value == "tuzvarazslo" && document.getElementById("fajselector").value == "ember") { /* tűzvarázsló  értékei!!! */
@@ -1325,6 +1472,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 6 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 5 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Kyr-metódussal, tűzből nyeri a manáját!";
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("hmlimit").innerHTML = 8;
+
     }
 
     if (document.getElementById("kasztselector").value == "tuzvarazslo" && document.getElementById("fajselector").value == "felelf") { /* tűzvarázsló értékei!!! */
@@ -1357,6 +1507,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 10 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 7 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "";
+        document.getElementById("maxhm").innerHTML = 4;
+        document.getElementById("hmlimit").innerHTML = 4;
+
     }
 
     if (document.getElementById("kasztselector").value == "varazslo" && document.getElementById("fajselector").value == "felelf") { /* varázsló !!! */
@@ -1369,6 +1522,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 10 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 7 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "1,5x hallás, 2x látás, Állóképesség -10 órányi futás, Lovaglás: Mf, Idomítás: Mf";
+        document.getElementById("maxhm").innerHTML = 4;
+        document.getElementById("hmlimit").innerHTML = 4;
+
     }
 
     if (document.getElementById("kasztselector").value == "varazslo" && document.getElementById("fajselector").value == "elf") { /* varázsló  */
@@ -1381,6 +1537,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 10 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 7 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Lovaglás: Mf, Erdőjárás: Mf, Idomítás: Mf, Hőlátás, 2x hallás, 2,5x látás";
+        document.getElementById("maxhm").innerHTML = 4;
+        document.getElementById("hmlimit").innerHTML = 4;
+
     }
 
     if (document.getElementById("kasztselector").value == "varazslo" && document.getElementById("fajselector").value == "torpe") { /* varázsló */
@@ -1393,6 +1552,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("mana").innerHTML = 10 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("pszi").innerHTML = 7 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "Hőlátás, Csapdakeresés: 35%, Titkosajtó keresés: 30% Földalatti érzék, Építmény korát meg tudják határozni";
+        document.getElementById("maxhm").innerHTML = 4;
+        document.getElementById("hmlimit").innerHTML = 4;
+
     }
 
     if (document.getElementById("kasztselector").value == "varazslo" && document.getElementById("fajselector").value == "ork") { /* varázsló kivétel!! */
