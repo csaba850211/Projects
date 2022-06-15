@@ -129,11 +129,6 @@ function ceminus() {
 }
 
 
-
-
-
-
-
 function eroplus() { /*ezek az eroplus minus ugyessegplus minus stb a tulajdonságok gombjai*/
     document.getElementById("ero").innerHTML++;
     if (document.getElementById("ero").innerHTML >= 19) {
@@ -360,7 +355,8 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 8 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 7 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 5);
         document.getElementById("egyeb").innerHTML = "";
-
+        document.getElementById("maxhm").innerHTML = 12;
+        document.getElementById("hmlimit").innerHTML = 12;
     }
 
     if (document.getElementById("kasztselector").value == "gladiator" && document.getElementById("fajselector").value == "felelf") { /*gladiátor értékei!!! */
@@ -371,6 +367,8 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 8 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 7 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 5);
         document.getElementById("egyeb").innerHTML = "1,5x hallás, 2x látás, Állóképesség -10 órányi futás, Lovaglás: Mf, Idomítás: Mf";
+        document.getElementById("maxhm").innerHTML = 12;
+        document.getElementById("hmlimit").innerHTML = 12;
     }
 
     if (document.getElementById("kasztselector").value == "gladiator" && document.getElementById("fajselector").value == "torpe") { /*gladiátor értékei!!! */
@@ -381,6 +379,8 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 8 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 7 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 5);
         document.getElementById("egyeb").innerHTML = "Hőlátás, Csapdakeresés: 35%, Titkosajtó keresés: 30% Földalatti érzék, Építmény korát meg tudják határozni";
+        document.getElementById("maxhm").innerHTML = 12;
+        document.getElementById("hmlimit").innerHTML = 12;
     }
 
     if (document.getElementById("kasztselector").value == "gladiator" && document.getElementById("fajselector").value == "ork") { /*gladiátor értékei!!! */
@@ -391,6 +391,8 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 8 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 7 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 5);
         document.getElementById("egyeb").innerHTML = "Infralátás, Csapdafelfedezés 20%, Titkosajtó keresés 10%, Földalatti érzék, Kiváló szaglás";
+        document.getElementById("maxhm").innerHTML = 12;
+        document.getElementById("hmlimit").innerHTML = 12;
     }
 
     if (document.getElementById("kasztselector").value == "fejvadasz" && document.getElementById("fajselector").value == "elf") { /*fejvadász értékei!!! */
@@ -407,6 +409,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("fp").innerHTML = 7 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 5);
         document.getElementById("pszi").innerHTML = 4 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "";
+        document.getElementById("maxhm").innerHTML = 11;
+        document.getElementById("hmlimit").innerHTML = 11;
+
     }
 
     if (document.getElementById("kasztselector").value == "fejvadasz" && document.getElementById("fajselector").value == "felelf") { /*fejvadász értékei!!! */
@@ -437,6 +442,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 7 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 5);
         document.getElementById("egyeb").innerHTML = "";
+        document.getElementById("maxhm").innerHTML = 12;
+        document.getElementById("hmlimit").innerHTML = 12;
+
     }
 
     if (document.getElementById("kasztselector").value == "lovag" && document.getElementById("fajselector").value == "felelf") { /*lovag értékei!!! */
@@ -468,6 +476,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 4 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 5 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 3);
         document.getElementById("egyeb").innerHTML = "";
+        document.getElementById("maxhm").innerHTML = 6;
+        document.getElementById("hmlimit").innerHTML = 6;
+
     }
 
     if (document.getElementById("kasztselector").value == "tolvaj" && document.getElementById("fajselector").value == "felelf") { /*tolvaj értékei!!! */
@@ -478,6 +489,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 4 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 5 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 3);
         document.getElementById("egyeb").innerHTML = "1,5x hallás, 2x látás, Állóképesség -10 órányi futás, Lovaglás: Mf, Idomítás: Mf";
+        document.getElementById("maxhm").innerHTML = 6;
+        document.getElementById("hmlimit").innerHTML = 6;
+
     }
 
     if (document.getElementById("kasztselector").value == "tolvaj" && document.getElementById("fajselector").value == "torpe") { /*tolvaj értékei!!! */
@@ -488,6 +502,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 4 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 5 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 3);
         document.getElementById("egyeb").innerHTML = "Hőlátás, Csapdakeresés: 35%, Titkosajtó keresés: 30% Földalatti érzék, Építmény korát meg tudják határozni";
+        document.getElementById("maxhm").innerHTML = 6;
+        document.getElementById("hmlimit").innerHTML = 6;
+
     }
 
     if (document.getElementById("kasztselector").value == "tolvaj" && document.getElementById("fajselector").value == "ork") { /*tolvaj értékei!!! */
@@ -498,6 +515,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 4 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 5 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 3);
         document.getElementById("egyeb").innerHTML = "Infralátás, Csapdafelfedezés 20%, Titkosajtó keresés 10%, Földalatti érzék, Kiváló szaglás";
+        document.getElementById("maxhm").innerHTML = 6;
+        document.getElementById("hmlimit").innerHTML = 6;
+
     }
 
     if (document.getElementById("kasztselector").value == "bard" && document.getElementById("fajselector").value == "elf") {
@@ -514,6 +534,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 5 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 3);
         document.getElementById("egyeb").innerHTML = "";
+        document.getElementById("maxhm").innerHTML = 9;
+        document.getElementById("hmlimit").innerHTML = 9;
+
     }
 
     if (document.getElementById("kasztselector").value == "bard" && document.getElementById("fajselector").value == "felelf") { /*bárd értékei!!! */
@@ -524,6 +547,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 5 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 3);
         document.getElementById("egyeb").innerHTML = "1,5x hallás, 2x látás, Állóképesség -10 órányi futás, Lovaglás: Mf, Idomítás: Mf";
+        document.getElementById("maxhm").innerHTML = 9;
+        document.getElementById("hmlimit").innerHTML = 9;
+
     }
 
     if (document.getElementById("kasztselector").value == "bard" && document.getElementById("fajselector").value == "torpe") { /*bárd értékei!!! */
@@ -539,6 +565,9 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 5 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 3);
         document.getElementById("egyeb").innerHTML = "Infralátás, Csapdafelfedezés 20%, Titkosajtó keresés 10%, Földalatti érzék, Kiváló szaglás";
+        document.getElementById("maxhm").innerHTML = 9;
+        document.getElementById("hmlimit").innerHTML = 9;
+
     }
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "elf") { /*domvikpap értékei!!! */
         alert("A választott faj nem tartozhat a választott Kasztba!");
