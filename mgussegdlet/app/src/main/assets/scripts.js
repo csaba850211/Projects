@@ -12,7 +12,6 @@ function fegyver() {
         document.getElementById("fegyver1sebzes").innerHTML= "0";
         document.getElementById("fegyver1tam").innerHTML = "0";
 
-
      }
 
     if (document.getElementById("fegyver1").value == "shadlekibuzogany") {
@@ -23,6 +22,45 @@ function fegyver() {
         document.getElementById("fegyver1sebzes").innerHTML= "1k6 + 1";
         document.getElementById("fegyver1tam").innerHTML = "1";
     }
+
+    if (document.getElementById("fegyver1").value == "egykezescsatabard") {
+        document.getElementById("fegyver1ke").innerHTML = 5;
+        document.getElementById("fegyver1te").innerHTML = 12;
+        document.getElementById("fegyver1ve").innerHTML = 11;
+        document.getElementById("fegyver1ce").innerHTML = 0;
+        document.getElementById("fegyver1sebzes").innerHTML= "1k10";
+        document.getElementById("fegyver1tam").innerHTML = "1";
+    }
+
+    if (document.getElementById("fegyver1").value == "ketkezescsatabard") {
+        document.getElementById("fegyver1ke").innerHTML = 0;
+        document.getElementById("fegyver1te").innerHTML = 8;
+        document.getElementById("fegyver1ve").innerHTML = 6;
+        document.getElementById("fegyver1ce").innerHTML = 0;
+        document.getElementById("fegyver1sebzes").innerHTML= "3k6";
+        document.getElementById("fegyver1tam").innerHTML = "1/2";
+    }
+
+    if (document.getElementById("fegyver1").value == "csatacsakany") {
+        document.getElementById("fegyver1ke").innerHTML = 5;
+        document.getElementById("fegyver1te").innerHTML = 11;
+        document.getElementById("fegyver1ve").innerHTML = 8;
+        document.getElementById("fegyver1ce").innerHTML = 0;
+        document.getElementById("fegyver1sebzes").innerHTML= "1k10";
+        document.getElementById("fegyver1tam").innerHTML = "1";
+    }
+
+    if (document.getElementById("fegyver1").value == "hajitobard") {
+        document.getElementById("fegyver1ke").innerHTML = 9;
+        document.getElementById("fegyver1te").innerHTML = 10;
+        document.getElementById("fegyver1ve").innerHTML = 4;
+        document.getElementById("fegyver1ce").innerHTML = 0;
+        document.getElementById("fegyver1sebzes").innerHTML= "1k16";
+        document.getElementById("fegyver1tam").innerHTML = "2";
+    }
+
+
+
 }
 
 function keplus() { /*harci érték módosítói!!! */

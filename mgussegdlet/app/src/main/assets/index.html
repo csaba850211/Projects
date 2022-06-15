@@ -14,9 +14,9 @@
     <table id="table1" width="100%">
         <tr>
             <td colspan="2">
-                <div id="divek" style="background-color:lightgrey ; font-size: 12px; text-align: center;">
-                    <a href="index2.html">A könyv</a>
-                    <a href="index.html">Karaktergeneráló</a>
+                <div id="divszalagcim" style="font-size: 12px; text-align: center;">
+                    <button onclick="location.href='index2.html';">Töredékek</button>
+                    <button onclick="location.href='index.html';">Karakterkészítő</button>
                 </div>
             </td>
         </tr>
@@ -88,13 +88,16 @@
                     </select>
                 </div>
             </td>
-            <td> <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+            <td>
+                <!--ez a káosz kezdete, a harci értékek jönnek ide -->
                 <div id="divek" style="text-align: center; background-color: grey; font-size: 11px;">
                     Harci értékek
-                    (Harci érték módosítók: <output id="maxhm" type="number" style="border: 1px solid; padding: 2px; background-color: beige; border-radius: 3px;">0</output> ) Max HM: <output id="hmlimit" type="number"></output>
+                    (Harci érték módosítók: <output id="maxhm" type="number"
+                        style="border: 1px solid; padding: 2px; background-color: beige; border-radius: 3px;">0</output>
+                    ) Max HM: <output id="hmlimit" type="number"></output>
                 </div>
             </td>
-           
+
 
         <tr>
             <!-- ez az erő táblája, ami tartalmazza az erő labelt, és az output-ot -->
@@ -120,7 +123,8 @@
                         </div>
                     </td>
 
-                    <td style="width: 60%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                    <td style="width: 35%;">
+                        <!--ez a káosz kezdete, a harci értékek jönnek ide -->
                         <div id="divek">
                             <label for="">Kezdeményező érték: </label>
                             <label for="">=</label>
@@ -130,9 +134,9 @@
                             <button onclick="keminus()" style="font-size: 9px;">-</button>
                         </div>
                     </td>
-                    
+
                 </tr>
-                 
+
             </table>
         </tr>
 
@@ -160,14 +164,15 @@
                         </div>
                     </td>
 
-                    <td style="width: 60%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                    <td style="width: 35%;">
+                        <!--ez a káosz kezdete, a harci értékek jönnek ide -->
                         <div id="divek">
                             <label for="">Támadó érték: </label>
                             <label for="">=</label>
                             <output id="te" type="number"></output>
                             <label for="">+HM =</label>
                             <button onclick="teplus()" style="font-size: 9px;">+</button>
-                            <button onclick = "teminus()" style="font-size: 9px;">-</button>
+                            <button onclick="teminus()" style="font-size: 9px;">-</button>
                         </div>
                     </td>
 
@@ -188,10 +193,10 @@
                         <label for="" style="width: 40%;"> = </label>
                     </td>
                     <td style="width: 7%;">
-                        <button id="ugyessegplus" onclick="ugyessegplus()"  style="font-size: 9px;">+</button>
+                        <button id="ugyessegplus" onclick="ugyessegplus()" style="font-size: 9px;">+</button>
                     </td>
                     <td style="width: 7%;">
-                        <button id="ugyessegminus" onclick="ugyessegminus()"  style="font-size: 9px;">-</button>
+                        <button id="ugyessegminus" onclick="ugyessegminus()" style="font-size: 9px;">-</button>
                     </td>
                     <td style="width: 3%;">
                         <div id="divek">
@@ -199,14 +204,15 @@
                         </div>
                     </td>
 
-                    <td style="width: 60%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                    <td style="width: 35%;">
+                        <!--ez a káosz kezdete, a harci értékek jönnek ide -->
                         <div id="divek">
                             <label for="">Védő érték: </label>
                             <label for="">=</label>
                             <output id="ve" type="number"></output>
                             <label for="">+HM =</label>
                             <button onclick="veplus()" style="font-size: 9px;">+</button>
-                            <button onclick = "veminus()" style="font-size: 9px;">-</button>
+                            <button onclick="veminus()" style="font-size: 9px;">-</button>
 
                         </div>
                     </td>
@@ -239,14 +245,15 @@
                         </div>
                     </td>
 
-                    <td style="width: 60%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                    <td style="width: 35%;">
+                        <!--ez a káosz kezdete, a harci értékek jönnek ide -->
                         <div id="divek">
                             <label for="">Célzó érték: </label>
                             <label for="">=</label>
                             <output id="ce" type="number"></output>
                             <label for="">+HM =</label>
                             <button onclick="ceplus()" style="font-size: 9px;">+</button>
-                            <button onclick = "ceminus()" style="font-size: 9px;">-</button>
+                            <button onclick="ceminus()" style="font-size: 9px;">-</button>
 
                         </div>
                     </td>
@@ -279,7 +286,8 @@
                         </div>
                     </td>
 
-                    <td style="width: 60%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                    <td style="width: 35%;">
+                        <!--ez a káosz kezdete, a harci értékek jönnek ide -->
                         <div id="divek">
                             <label for="">Életerő pontok: </label>
                             <label for="">=</label>
@@ -313,7 +321,8 @@
                             <output type="number" id="szepseg"></output>
                         </div>
                     </td>
-                    <td style="width: 60%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                    <td style="width: 35%;">
+                        <!--ez a káosz kezdete, a harci értékek jönnek ide -->
                         <div id="divek">
                             <label for="">Fájdalomtűrés pontok: </label>
                             <label for="">=</label>
@@ -339,16 +348,18 @@
                     </td>
                     <td style="width: 7%;">
                         <button id="intelligenciaplus" onclick="intelligenciaplus()" style="font-size: 9px;">+</button>
-                    </td">
+                        </td">
                     <td style="width: 7%;">
-                        <button id="intelligenciaminus" onclick="intelligenciaminus()" style="font-size: 9px;">-</button>
+                        <button id="intelligenciaminus" onclick="intelligenciaminus()"
+                            style="font-size: 9px;">-</button>
                     </td>
                     <td style="width: 3%;">
                         <div id="divek">
                             <output type="number" id="intelligencia"></output>
                         </div>
                     </td>
-                    <td style="width: 60%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                    <td style="width: 35%;">
+                        <!--ez a káosz kezdete, a harci értékek jönnek ide -->
                         <div id="divek">
                             <label for="">Mana pont: </label>
                             <label for="">=</label>
@@ -383,7 +394,8 @@
                             <output type="number" id="akaratero"></output>
                         </div>
                     </td>
-                    <td style="width: 60%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                    <td style="width: 35%;">
+                        <!--ez a káosz kezdete, a harci értékek jönnek ide -->
                         <div id="divek">
                             <label for="">Pszi pontok: </label>
                             <label for="">=</label>
@@ -418,7 +430,8 @@
                             <output type="number" id="asztral"></output>
                         </div>
                     </td>
-                    <td style="width: 60%;">  <!--ez a káosz kezdete, a harci értékek jönnek ide -->
+                    <td style="width: 35%;">
+                        <!--ez a káosz kezdete, a harci értékek jönnek ide -->
                         <div id="divek">
                             <label for="">Egyéb: </label>
                             <label for="">=</label>
@@ -438,11 +451,12 @@
                     </div>
                 </td>
                 <td>
-                    <div id="divek" style="background-color:lightgrey; text-align: center; font-size: 12px;">Ez egy tartalom</div>
+                    <div id="divek" style="background-color:lightgrey; text-align: center; font-size: 12px;">Felszerelés
+                    </div>
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: grey;">
                 <!--ez az alap képzettséglista! -->
                 <td>
                     <output id="kepzettseg1"></output>
@@ -451,37 +465,202 @@
                 <td>
                     <output id="kepzettseg1fok"></output>
                 </td>
-                 <!-- itt vannak a fegyverek!!!-->
-                        <td style="width: 60%;">
-                            <select name="" id="fegyver1" onchange="fegyver()">
-                                <option value="valassz">Válassz</option>
-                                <option value="shadlekibuzogany">Shadleki buzogány</option>
-                                <option value="egykezescsatabard">Egykezes csatabárd</option>
-                                <option value="ketkezescsatabard">Kétkezes csatabárd</option>
-                                <option value="csatacsakany">Csatacsákány</option>
-                            </select>
-                            <label for="">Ké:</label> <output id="fegyver1ke"></output>
-                            <label for="">Té:</label> <output id="fegyver1te"></output>
-                             <label for="">Vé:</label> <output id="fegyver1ve"></output> 
-                             <label for="">Cé:</label> <output id="fegyver1ce"></output>
-                             <label for="">Sebzés:</label> <output id="fegyver1sebzes"></output>
-                            <label for="">Tám/k:</label> <output id="fegyver1tam"></output>
-                        </td>
-                        
+                <!-- itt vannak a fegyverek!!!-->
+                <td style="width: 60%;">
+                    <select name="" id="fegyver1"
+                        style="width: 100%; font-size: 10px; background-color: lightblue; border-radius: 3px;"
+                        onchange="fegyver()">
+                        <option value="valassz">Fegyver 1</option> <!-- szúró-vágó fegyverek!-->
+                        <option value="shadlekibuzogany">Shadleki buzogány</option>
+                        <option value="egykezescsatabard">Egykezes csatabárd</option>
+                        <option value="ketkezescsatabard">Kétkezes csatabárd</option>
+                        <option value="csatacsakany">Csatacsákány</option>
+                        <option value="hajitobard">Hajítóbárd</option>
+                        <option value="rovidkard">Rövidkard</option>
+                        <option value="hosszukard">Hosszú kard</option>
+                        <option value="masfelkezeskard">Másfélkezes kard</option>
+                        <option value="lovagikard">Lovagikard</option>
+                        <option value="pallos">Pallos</option>
+                        <option value="szablya">Szablya</option>
+                        <option value="dzsennszablya">Dzsenn szablya</option>
+                        <option value="jatagan">Jatagán</option>
+                        <option value="handzsar">Handzsár</option>
+                        <option value="fevadaszkard">Fejvadász kard</option>
+                        <option value="slankard">Slan kard</option>
+                        <option value="kigyokard">Egykezes csatabárd</option>
+                        <option value="kes">Kés</option>
+                        <option value="marasequor">Mara-Sequor</option>
+                        <option value="ramiera">Ramiera</option>
+                        <option value="sequor">Sequor</option>
+                        <option value="slancsillag">Slan csillag</option>
+                        <option value="tor">Tőr</option>
+                        <option value="dobotor">Dobótőr</option>
+                        <option value="slantor">Slan tőr</option>
+                        <option value="torkard">Tőrkard</option>
+
+                        <option value="hosszubot">Hosszú bot</option> <!-- zúzófegyverek! -->
+                        <option value="rovidbot">Rövid bot</option>
+                        <option value="furkosbot">Furkósbot</option>
+                        <option value="egykezesbuzogany">Egykezes buzogány</option>
+                        <option value="ketkezesbuzogany">Kétkezes buzogány</option>
+                        <option value="tuskesbuzogany">Tüskés buzogány</option>
+                        <option value="tollasbuzogany">Tollas buzogány</option>
+                        <option value="lancosbuzogany">Láncos buzogány</option>
+                        <option value="csephadaro">Cséphadaró</option>
+                        <option value="harcikalapacs">Harci kalapács</option>
+
+                        <option value="alabard">Alabárd</option> <!-- szálfegyverek! -->
+                        <option value="darda">Dárda/ Hajító dárda</option>
+                        <option value="konnyukopja">Könnyű kopja</option>
+                        <option value="lovaskopja">Lovas kopja</option>
+                        <option value="nehézlovaskopja">Nehézlovas kopja</option>
+                        <option value="landzsa">Lándzsa</option>
+                        <option value="szigony">Szigony</option>
+
+                        <option value="fuvocso">Fúvócső</option>
+                        <!--célzófegyverek! -->
+                        <option value="rovidij">Rövid íj</option>
+                        <option value="hosszuij">Hosszú íj</option>
+                        <option value="visszacsapoij">Visszacsapó íj</option>
+                        <option value="elfij">Elf íj</option>
+                        <option value="aquirnyilpuska">Aquir nyílpuska</option>
+                        <option value="kezinyilpuska">Kézi nyílpuska</option>
+                        <option value="kahreinyilpuska">Kahrei nyílpuska</option>
+                        <option value="konnyunyilpuska">Könnyű nyílpuska</option>
+                        <option value="neheznyilpuska">Nehéz nyílpuska</option>
+                        <option value="shadonipanceltoro">Shadoni páncéltörő</option>
+                        <option value="parittya">Parittya</option>
+
+
+                        <option value="bola">Shadleki buzogány</option> <!-- egyéb fegyverek!-->
+                        <option value="dobohalo">Egykezes csatabárd</option>
+                        <option value="garott">Kétkezes csatabárd</option>
+                        <option value="haritotor">Csatacsákány</option>
+                        <option value="korbacs">Lovas kopja</option>
+                        <option value="lasszo">Lovas kopja</option>
+                        <option value="ostor">Lovas kopja</option>
+                        <option value="okol">Lovas kopja</option>
+                        <option value="vasokol">Lovas kopja</option>
+
+                        <option value="kispajzs">Kis pajzs</option> <!-- pajzsok! -->
+                        <option value="kozepespajzs">Közepes pajzs</option>
+                        <option value="nagypajzs">Nagy pajzs</option>
+                    </select>
+
+                    <label for="">Ké:</label> <output id="fegyver1ke"></output>
+                    <label for="">Té:</label> <output id="fegyver1te"></output>
+                    <label for="">Vé:</label> <output id="fegyver1ve"></output>
+                    <label for="">Cé:</label> <output id="fegyver1ce"></output>
+                    <label for="">Sebzés:</label> <output id="fegyver1sebzes"></output>
+                    <label for="">Tám/k:</label> <output id="fegyver1tam"></output>                   
+                </td>
+
 
             </tr>
 
-            <tr>
+            <tr style="background-color: lightgrey;">
                 <td>
                     <output id="kepzettseg2"></output>
                 </td>
                 <td>Fok: </td>
+
                 <td>
                     <output id="kepzettseg2fok"></output>
+                    
+                </td>  
+                
+                <td style="width: 60%;">
+                    <select name="" id="fegyver2"
+                    style="width: 100%; font-size: 10px; background-color: lightgreen; border-radius: 3px;"
+                    onchange="fegyver()">
+                    <option value="valassz">Fegyver 2</option> <!-- szúró-vágó fegyverek!-->
+                    <option value="shadlekibuzogany">Shadleki buzogány</option>
+                    <option value="egykezescsatabard">Egykezes csatabárd</option>
+                    <option value="ketkezescsatabard">Kétkezes csatabárd</option>
+                    <option value="csatacsakany">Csatacsákány</option>
+                    <option value="hajitobard">Hajítóbárd</option>
+                    <option value="rovidkard">Rövidkard</option>
+                    <option value="hosszukard">Hosszú kard</option>
+                    <option value="masfelkezeskard">Másfélkezes kard</option>
+                    <option value="lovagikard">Lovagikard</option>
+                    <option value="pallos">Pallos</option>
+                    <option value="szablya">Szablya</option>
+                    <option value="dzsennszablya">Dzsenn szablya</option>
+                    <option value="jatagan">Jatagán</option>
+                    <option value="handzsar">Handzsár</option>
+                    <option value="fevadaszkard">Fejvadász kard</option>
+                    <option value="slankard">Slan kard</option>
+                    <option value="kigyokard">Egykezes csatabárd</option>
+                    <option value="kes">Kés</option>
+                    <option value="marasequor">Mara-Sequor</option>
+                    <option value="ramiera">Ramiera</option>
+                    <option value="sequor">Sequor</option>
+                    <option value="slancsillag">Slan csillag</option>
+                    <option value="tor">Tőr</option>
+                    <option value="dobotor">Dobótőr</option>
+                    <option value="slantor">Slan tőr</option>
+                    <option value="torkard">Tőrkard</option>
+
+                    <option value="hosszubot">Hosszú bot</option> <!-- zúzófegyverek! -->
+                    <option value="rovidbot">Rövid bot</option>
+                    <option value="furkosbot">Furkósbot</option>
+                    <option value="egykezesbuzogany">Egykezes buzogány</option>
+                    <option value="ketkezesbuzogany">Kétkezes buzogány</option>
+                    <option value="tuskesbuzogany">Tüskés buzogány</option>
+                    <option value="tollasbuzogany">Tollas buzogány</option>
+                    <option value="lancosbuzogany">Láncos buzogány</option>
+                    <option value="csephadaro">Cséphadaró</option>
+                    <option value="harcikalapacs">Harci kalapács</option>
+
+                    <option value="alabard">Alabárd</option> <!-- szálfegyverek! -->
+                    <option value="darda">Dárda/ Hajító dárda</option>
+                    <option value="konnyukopja">Könnyű kopja</option>
+                    <option value="lovaskopja">Lovas kopja</option>
+                    <option value="nehézlovaskopja">Nehézlovas kopja</option>
+                    <option value="landzsa">Lándzsa</option>
+                    <option value="szigony">Szigony</option>
+
+                    <option value="fuvocso">Fúvócső</option>
+                    <!--célzófegyverek! -->
+                    <option value="rovidij">Rövid íj</option>
+                    <option value="hosszuij">Hosszú íj</option>
+                    <option value="visszacsapoij">Visszacsapó íj</option>
+                    <option value="elfij">Elf íj</option>
+                    <option value="aquirnyilpuska">Aquir nyílpuska</option>
+                    <option value="kezinyilpuska">Kézi nyílpuska</option>
+                    <option value="kahreinyilpuska">Kahrei nyílpuska</option>
+                    <option value="konnyunyilpuska">Könnyű nyílpuska</option>
+                    <option value="neheznyilpuska">Nehéz nyílpuska</option>
+                    <option value="shadonipanceltoro">Shadoni páncéltörő</option>
+                    <option value="parittya">Parittya</option>
+
+
+                    <option value="bola">Shadleki buzogány</option> <!-- egyéb fegyverek!-->
+                    <option value="dobohalo">Egykezes csatabárd</option>
+                    <option value="garott">Kétkezes csatabárd</option>
+                    <option value="haritotor">Csatacsákány</option>
+                    <option value="korbacs">Lovas kopja</option>
+                    <option value="lasszo">Lovas kopja</option>
+                    <option value="ostor">Lovas kopja</option>
+                    <option value="okol">Lovas kopja</option>
+                    <option value="vasokol">Lovas kopja</option>
+
+                    <option value="kispajzs">Kis pajzs</option> <!-- pajzsok! -->
+                    <option value="kozepespajzs">Közepes pajzs</option>
+                    <option value="nagypajzs">Nagy pajzs</option>
+                </select>
+
+                <label for="">Ké:</label> <output id="fegyver2ke"></output>
+                <label for="">Té:</label> <output id="fegyver2te"></output>
+                <label for="">Vé:</label> <output id="fegyver2ve"></output>
+                <label for="">Cé:</label> <output id="fegyver2ce"></output>
+                <label for="">Sebzés:</label> <output id="fegyver2sebzes"></output>
+                <label for="">Tám/k:</label> <output id="fegyver2tam"></output>
+
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: grey;">
                 <td>
                     <output id="kepzettseg3"></output>
                 </td>
@@ -491,7 +670,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: lightgrey;">
                 <td>
                     <output id="kepzettseg4"></output>
                 </td>
@@ -501,7 +680,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: grey;">
                 <td>
                     <output id="kepzettseg5"></output>
                 </td>
@@ -511,7 +690,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: lightgrey;">
                 <td>
                     <output id="kepzettseg6"></output>
                 </td>
@@ -521,7 +700,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: grey;">
                 <td>
                     <output id="kepzettseg7"></output>
                 </td>
@@ -531,7 +710,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: lightgrey;">
                 <td>
                     <output id="kepzettseg8"></output>
                 </td>
@@ -541,7 +720,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: grey;">
                 <td>
                     <output id="kepzettseg9"></output>
                 </td>
@@ -551,7 +730,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: lightgrey;">
                 <td>
                     <output id="kepzettseg10"></output>
                 </td>
@@ -561,7 +740,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: grey;">
                 <td>
                     <output id="kepzettseg11"></output>
                 </td>
@@ -571,7 +750,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: lightgrey;">
                 <td>
                     <output id="kepzettseg12"></output>
                 </td>
@@ -581,7 +760,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: grey;">
                 <td>
                     <output id="kepzettseg13"></output>
                 </td>
@@ -591,7 +770,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: lightgrey;">
                 <td>
                     <output id="kepzettseg14"></output>
                 </td>
@@ -601,7 +780,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: grey;">
                 <td>
                     <output id="kepzettseg15"></output>
                 </td>
@@ -611,7 +790,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: lightgrey;">
                 <td>
                     <output id="kepzettseg16"></output>
                 </td>
@@ -621,7 +800,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: grey;">
                 <td>
                     <output id="kepzettseg17"></output>
                 </td>
@@ -631,7 +810,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: lightgrey;">
                 <td>
                     <output id="kepzettseg18"></output>
                 </td>
@@ -641,7 +820,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: grey;">
                 <td>
                     <output id="kepzettseg19"></output>
                 </td>
@@ -651,7 +830,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: lightgrey;">
                 <td>
                     <output id="kepzettseg20"></output>
                 </td>
@@ -661,7 +840,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: grey;">
                 <td>
                     <output id="kepzettseg21"></output>
                 </td>
@@ -671,7 +850,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: lightgrey;">
                 <td>
                     <output id="kepzettseg22"></output>
                 </td>
@@ -681,7 +860,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: grey;">
                 <td>
                     <output id="kepzettseg23"></output>
                 </td>
@@ -691,7 +870,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: lightgrey;">
                 <td>
                     <output id="kepzettseg24"></output>
                 </td>
@@ -701,7 +880,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr style="background-color: grey;">
                 <td>
                     <output id="kepzettseg25"></output>
                 </td>
@@ -719,7 +898,9 @@
             <tr>
                 <td style="text-align: center;">
                     <div id="divek" style="text-align: center ;">
-                        <label style="font-size: 13px; text-align: left; background-color:grey; padding-right: 10px;">1: válassz fajt. 2: válassz kasztot. 3: válassz vallást. 4: Értékek kidobása. 5: számolj!</label>
+                        <label style="font-size: 13px; text-align: left; background-color:grey; padding-right: 10px;">1:
+                            válassz fajt. 2: válassz kasztot. 3: válassz vallást. 4: Értékek kidobása. 5:
+                            számolj!</label>
                         <button onclick="dice()" id="tulbutton"
                             style="padding: 4px; background-color: lightsalmon; border-radius: 4px;">Értékek
                             kidobása!</button>

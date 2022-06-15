@@ -2,8 +2,36 @@
     padding: 4px;
     border-color: black;
     border: solid;
+    border-width: 1px;
     border-radius: 4px;
     background-color: beige;
     font-size: 10px;
     text-align: right;
+}
+
+#divszalagcim {
+  padding: 4px;
+  border-color: black;
+  border: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  font-size: 10px;
+  text-align: right;
+
+  background: linear-gradient(-45deg, #cd8772, #c37b97, #72acc1, #2f816e);
+  background-size: 400%, 400%;
+  animation: gradient 15s ease infinite;
+
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
