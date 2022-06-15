@@ -2,6 +2,29 @@ var k6 = Math.round(Math.random() * 6 + 1); /*dobókocka hat oldalú*/
 var k8 = Math.round(Math.random() * 8 + 1);
 var k10 = Math.round(Math.random() * 10 + 1);
 
+function fegyver() {
+
+    if (document.getElementById("fegyver1").value == "valassz") {
+        document.getElementById("fegyver1ke").innerHTML = 0;
+        document.getElementById("fegyver1te").innerHTML = 0;
+        document.getElementById("fegyver1ve").innerHTML = 0;
+        document.getElementById("fegyver1ce").innerHTML = 0;
+        document.getElementById("fegyver1sebzes").innerHTML= "0";
+        document.getElementById("fegyver1tam").innerHTML = "0";
+
+
+     }
+
+    if (document.getElementById("fegyver1").value == "shadlekibuzogany") {
+        document.getElementById("fegyver1ke").innerHTML = 8;
+        document.getElementById("fegyver1te").innerHTML = 13;
+        document.getElementById("fegyver1ve").innerHTML = 14;
+        document.getElementById("fegyver1ce").innerHTML = 0;
+        document.getElementById("fegyver1sebzes").innerHTML= "1k6 + 1";
+        document.getElementById("fegyver1tam").innerHTML = "1";
+    }
+}
+
 function keplus() { /*harci érték módosítói!!! */
     document.getElementById("ke").innerHTML++;
     document.getElementById("maxhm").innerHTML--;
