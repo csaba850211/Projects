@@ -91,9 +91,10 @@
             <td> <!--ez a káosz kezdete, a harci értékek jönnek ide -->
                 <div id="divek" style="text-align: center; background-color: grey ;">
                     Harci értékek
+                    (Harci érték módosítók: <output id="maxhm" type="number" style="border: 1px solid; padding: 2px; background-color: beige;">0</output>)
                 </div>
             </td>
-        </tr>
+           
 
         <tr>
             <!-- ez az erő táblája, ami tartalmazza az erő labelt, és az output-ot -->
@@ -108,10 +109,10 @@
                         <label for="" style="width: 40% ;"> = </label>
                     </td>
                     <td style="width: 10%;">
-                        <button id="eroplus" onclick="eroplus()">+</button>
+                        <button id="eroplus" onclick="eroplus()" style="font-size: 9px;">+</button>
                     </td>
                     <td style="width: 10%;">
-                        <button id="erominus" onclick="erominus()">-</button>
+                        <button id="erominus" onclick="erominus()" style="font-size: 9px;">-</button>
                     </td>
                     <td style="width: 7%;">
                         <div id="divek">
@@ -124,6 +125,9 @@
                             <label for="">Kezdeményező érték: </label>
                             <label for="">=</label>
                             <output id="ke" type="number"></output>
+                            <label for="">HM = </label>
+                            <button onclick="keplus()" style="font-size: 9px;">+</button>
+                            <button onclick="keminus()" style="font-size: 9px;">-</button>
                         </div>
                     </td>
                     
@@ -145,10 +149,10 @@
                         <label for="" style="width: 40%;"> = </label>
                     </td>
                     <td style="width: 10%;">
-                        <button id="gyorsasagplus" onclick="gyorsasagplus()">+</button>
+                        <button id="gyorsasagplus" onclick="gyorsasagplus()" style="font-size: 9px;">+</button>
                     </td>
                     <td style="width: 10%;">
-                        <button id="gyorsasagminus" onclick="gyorsasagminus()">-</button>
+                        <button id="gyorsasagminus" onclick="gyorsasagminus()" style="font-size: 9px;">-</button>
                     </td>
                     <td style="width: 7%;">
                         <div id="divek">
@@ -161,6 +165,9 @@
                             <label for="">Támadó érték: </label>
                             <label for="">=</label>
                             <output id="te" type="number"></output>
+                            <label for="">HM =</label>
+                            <button onclick="teplus()" style="font-size: 9px;">+</button>
+                            <button onclick = "teminus()" style="font-size: 9px;">-</button>
                         </div>
                     </td>
 
@@ -181,10 +188,10 @@
                         <label for="" style="width: 40%;"> = </label>
                     </td>
                     <td style="width: 10%;">
-                        <button id="ugyessegplus" onclick="ugyessegplus()">+</button>
+                        <button id="ugyessegplus" onclick="ugyessegplus()"  style="font-size: 9px;">+</button>
                     </td>
                     <td style="width: 10%;">
-                        <button id="ugyessegminus" onclick="ugyessegminus()">-</button>
+                        <button id="ugyessegminus" onclick="ugyessegminus()"  style="font-size: 9px;">-</button>
                     </td>
                     <td style="width: 7%;">
                         <div id="divek">
@@ -197,6 +204,10 @@
                             <label for="">Védő érték: </label>
                             <label for="">=</label>
                             <output id="ve" type="number"></output>
+                            <label for="">HM =</label>
+                            <button onclick="veplus()" style="font-size: 9px;">+</button>
+                            <button onclick = "veminus()" style="font-size: 9px;">-</button>
+
                         </div>
                     </td>
 
@@ -217,10 +228,10 @@
                         <label for="" style="width: 40%;"> = </label>
                     </td>
                     <td style="width: 10%;">
-                        <button id="allokepessegplus" onclick="allokepessegplus()">+</button>
+                        <button id="allokepessegplus" onclick="allokepessegplus()" style="font-size: 9px;">+</button>
                     </td>
                     <td style="width: 10%;">
-                        <button id="allokepessegminus" onclick="allokepessegminus()">-</button>
+                        <button id="allokepessegminus" onclick="allokepessegminus()" style="font-size: 9px;">-</button>
                     </td>
                     <td style="width: 7%;">
                         <div id="divek">
@@ -233,6 +244,10 @@
                             <label for="">Célzó érték: </label>
                             <label for="">=</label>
                             <output id="ce" type="number"></output>
+                            <label for="">HM =</label>
+                            <button onclick="ceplus()" style="font-size: 9px;">+</button>
+                            <button onclick = "ceminus()" style="font-size: 9px;">-</button>
+
                         </div>
                     </td>
 
@@ -253,10 +268,10 @@
                         <label for="" style="width: 40%;"> = </label>
                     </td>
                     <td style="width: 10%;">
-                        <button id="egeszsegplus" onclick="egeszsegplus()">+</button>
+                        <button id="egeszsegplus" onclick="egeszsegplus()" style="font-size: 9px;">+</button>
                     </td>
                     <td style="width: 10%;">
-                        <button id="egeszsegminus" onclick="egeszsegminus()">-</button>
+                        <button id="egeszsegminus" onclick="egeszsegminus()" style="font-size: 9px;">-</button>
                     </td>
                     <td style="width: 7%;">
                         <div id="divek">
@@ -288,10 +303,10 @@
                         <label for="" style="width: 40%;"> = </label>
                     </td>
                     <td style="width: 10%;">
-                        <button id="szepsegplus" onclick="szepsegplus()">+</button>
+                        <button id="szepsegplus" onclick="szepsegplus()" style="font-size: 9px;">+</button>
                     </td>
                     <td style="width: 10%;">
-                        <button id="szepsegminus" onclick="szepsegminus()">-</button>
+                        <button id="szepsegminus" onclick="szepsegminus()" style="font-size: 9px;">-</button>
                     </td>
                     <td style="width: 7%;">
                         <div id="divek">
@@ -323,10 +338,10 @@
                         <label for="" style="width: 40%;"> = </label>
                     </td>
                     <td style="width: 10%;">
-                        <button id="intelligenciaplus" onclick="intelligenciaplus()">+</button>
+                        <button id="intelligenciaplus" onclick="intelligenciaplus()" style="font-size: 9px;">+</button>
                     </td">
                     <td style="width: 10%;">
-                        <button id="intelligenciaminus" onclick="intelligenciaminus()">-</button>
+                        <button id="intelligenciaminus" onclick="intelligenciaminus()" style="font-size: 9px;">-</button>
                     </td>
                     <td style="width: 7%;">
                         <div id="divek">
@@ -358,10 +373,10 @@
                         <label for="" style="width: 40%;"> = </label>
                     </td>
                     <td style="width: 10%;">
-                        <button id="akarateroplus" onclick="akarateroplus()">+</button>
+                        <button id="akarateroplus" onclick="akarateroplus()" style="font-size: 9px;">+</button>
                     </td>
                     <td style="width: 10%;">
-                        <button id="akaraterominus" onclick="akaraterominus()">-</button>
+                        <button id="akaraterominus" onclick="akaraterominus()" style="font-size: 9px;">-</button>
                     </td>
                     <td style="width: 7%;">
                         <div id="divek">
@@ -393,10 +408,10 @@
                         <label for="" style="width: 10%;"> = </label>
                     </td>
                     <td style="width: 10%;">
-                        <button id="asztralplus" onclick="asztralplus()">+</button>
+                        <button id="asztralplus" onclick="asztralplus()" style="font-size: 9px;">+</button>
                     </td>
                     <td style="width: 10%;">
-                        <button id="asztralminus" onclick="asztralminus()">-</button>
+                        <button id="asztralminus" onclick="asztralminus()" style="font-size: 9px;">-</button>
                     </td>
                     <td style="width: 7%;">
                         <div id="divek">
