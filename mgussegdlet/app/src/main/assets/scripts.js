@@ -344,7 +344,7 @@ function veminus() {
         document.getElementById("maxhm").innerHTML--;
     }
 }
-hm--;
+
 function ceplus() {
     document.getElementById("ce").innerHTML++;
     document.getElementById("maxhm").innerHTML--;
@@ -380,9 +380,13 @@ function ceminus() {
 
 function eroplus() { /*ezek az eroplus minus ugyessegplus minus stb a tulajdonságok gombjai*/
     document.getElementById("ero").innerHTML++;
-    if (document.getElementById("ero").innerHTML >= 19) {
+    if (document.getElementById("ero").innerHTML >= 18) {
         alert("az érték nem lehet nagyobb, mint 18!!!");
         document.getElementById("ero").innerHTML--;
+    }
+
+    if (document.getElementById("ero").innerHTML == 22) {
+        alert("Ez a lehető legmagasabb érték!");
     }
 }
 
@@ -396,10 +400,15 @@ function erominus() {
 
 function gyorsasagplus() {
     document.getElementById("gyorsasag").innerHTML++;
-    if (document.getElementById("gyorsasag").innerHTML >= 19) {
+    if (document.getElementById("gyorsasag").innerHTML >= 18) {
         alert("az érték nem lehet nagyobb, mint 18!!!");
         document.getElementById("gyorsasag").innerHTML--;
     }
+
+    if (document.getElementById("gyorsasag").innerHTML == 22) {
+        alert("Ez a lehető legmagasabb érték!");
+    }
+
 }
 
 function gyorsasagminus() {
@@ -412,10 +421,15 @@ function gyorsasagminus() {
 
 function ugyessegplus() {
     document.getElementById("ugyesseg").innerHTML++;
-    if (document.getElementById("ugyesseg").innerHTML >= 19) {
+    if (document.getElementById("ugyesseg").innerHTML >= 18) {
         alert("az érték nem lehet nagyobb, mint 18!!!");
         document.getElementById("ugyesseg").innerHTML--;
     }
+
+    if (document.getElementById("ugyesseg").innerHTML == 22) {
+        alert("Ez a lehető legmagasabb érték!");
+    }
+
 }
 
 function ugyessegminus() {
@@ -429,10 +443,15 @@ function ugyessegminus() {
 
 function allokepessegplus() {
     document.getElementById("allokepesseg").innerHTML++;
-    if (document.getElementById("allokepesseg").innerHTML >= 19) {
+    if (document.getElementById("allokepesseg").innerHTML >= 18) {
         alert("az érték nem lehet nagyobb, mint 18!!!");
         document.getElementById("allokepesseg").innerHTML--;
     }
+
+    if (document.getElementById("allokepesseg").innerHTML == 22) {
+        alert("Ez a lehető legmagasabb érték!");
+    }
+
 }
 
 function allokepessegminus() {
@@ -445,10 +464,15 @@ function allokepessegminus() {
 
 function egeszsegplus() {
     document.getElementById("egeszseg").innerHTML++;
-    if (document.getElementById("egeszseg").innerHTML >= 19) {
+    if (document.getElementById("egeszseg").innerHTML >= 18) {
         alert("az érték nem lehet nagyobb, mint 18!!!");
         document.getElementById("egeszseg").innerHTML--;
     }
+
+    if (document.getElementById("egeszseg").innerHTML == 22) {
+        alert("Ez a lehető legmagasabb érték!");
+    }
+
 }
 
 function egeszsegminus() {
@@ -461,10 +485,15 @@ function egeszsegminus() {
 
 function szepsegplus() {
     document.getElementById("szepseg").innerHTML++;
-    if (document.getElementById("szepseg").innerHTML >= 19) {
+    if (document.getElementById("szepseg").innerHTML >= 18) {
         alert("az érték nem lehet nagyobb, mint 18!!!");
         document.getElementById("szepseg").innerHTML--;
     }
+
+    if (document.getElementById("szepseg").innerHTML == 22) {
+        alert("Ez a lehető legmagasabb érték!");
+    }
+
 }
 
 function szepsegminus() {
@@ -477,10 +506,15 @@ function szepsegminus() {
 
 function intelligenciaplus() {
     document.getElementById("intelligencia").innerHTML++;
-    if (document.getElementById("intelligencia").innerHTML >= 19) {
+    if (document.getElementById("intelligencia").innerHTML >= 18) {
         alert("az érték nem lehet nagyobb, mint 18!!!");
         document.getElementById("intelligencia").innerHTML--;
     }
+
+    if (document.getElementById("intelligencia").innerHTML == 22) {
+        alert("Ez a lehető legmagasabb érték!");
+    }
+
 }
 
 function intelligenciaminus() {
@@ -493,10 +527,15 @@ function intelligenciaminus() {
 
 function akarateroplus() {
     document.getElementById("akaratero").innerHTML++;
-    if (document.getElementById("akaratero").innerHTML >= 19) {
+    if (document.getElementById("akaratero").innerHTML >= 18) {
         alert("az érték nem lehet nagyobb, mint 18!!!");
         document.getElementById("akaratero").innerHTML--;
     }
+
+    if (document.getElementById("akaratero").innerHTML == 22) {
+        alert("Ez a lehető legmagasabb érték!");
+    }
+
 
 }
 
@@ -510,10 +549,15 @@ function akaraterominus() {
 
 function asztralplus() {
     document.getElementById("asztral").innerHTML++;
-    if (document.getElementById("asztral").innerHTML >= 19) {
+    if (document.getElementById("asztral").innerHTML >= 18) {
         alert("az érték nem lehet nagyobb, mint 18!!!");
         document.getElementById("asztral").innerHTML--;
     }
+
+    if (document.getElementById("asztral").innerHTML == 22) {
+        alert("Ez a lehető legmagasabb érték!");
+    }
+
 }
 
 function asztralminus() {
@@ -526,6 +570,38 @@ function asztralminus() {
 }
 
 function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, manapont stb. */
+
+    if (document.getElementById("fajselector").value == "elf") {
+        document.getElementById("ero").innerHTML = document.getElementById("ero").innerHTML - 2;
+        document.getElementById("ugyesseg").innerHTML = parseFloat(document.getElementById("ugyesseg").innerHTML) + 1;
+        document.getElementById("gyorsasag").innerHTML = parseFloat(document.getElementById("gyorsasag").innerHTML) + 1;
+        document.getElementById("allokepesseg").innerHTML = document.getElementById("allokepesseg").innerHTML - 1;
+        document.getElementById("szepseg").innerHTML = parseFloat(document.getElementById("szepseg").innerHTML) + 1;
+    }
+
+    if (document.getElementById("fajselector").value == "felelf") {
+        document.getElementById("ero").innerHTML = document.getElementById("ero").innerHTML - 1;
+        document.getElementById("gyorsasag").innerHTML = parseFloat(document.getElementById("gyorsasag").innerHTML) + 1;
+    }
+
+    if (document.getElementById("fajselector").value == "torpe") {
+        document.getElementById("ero").innerHTML = parseFloat(document.getElementById("ero").innerHTML) + 1;
+        document.getElementById("egeszseg").innerHTML = parseFloat(document.getElementById("egeszseg").innerHTML) + 1;
+        document.getElementById("allokepesseg").innerHTML = parseFloat(document.getElementById("allokepesseg").innerHTML) + 1;
+        document.getElementById("intelligencia").innerHTML = parseFloat(document.getElementById("intelligencia").innerHTML) - 1;
+        document.getElementById("szepseg").innerHTML = parseFloat(document.getElementById("szepseg").innerHTML) - 2;
+        document.getElementById("asztral").innerHTML = parseFloat(document.getElementById("asztral").innerHTML) - 1;
+    }
+
+    if (document.getElementById("fajselector").value == "ork") {
+        document.getElementById("ero").innerHTML = parseFloat(document.getElementById("ero").innerHTML) + 2;
+        document.getElementById("egeszseg").innerHTML = parseFloat(document.getElementById("egeszseg").innerHTML) + 2;
+        document.getElementById("allokepesseg").innerHTML = parseFloat(document.getElementById("allokepesseg").innerHTML) + 1;
+        document.getElementById("intelligencia").innerHTML = parseFloat(document.getElementById("intelligencia").innerHTML) - 1;
+        document.getElementById("szepseg").innerHTML = parseFloat(document.getElementById("szepseg").innerHTML) - 3;
+        document.getElementById("asztral").innerHTML = parseFloat(document.getElementById("asztral").innerHTML) - 3;
+    }
+
 
     if (document.getElementById("vallasselector").value == "valassz") {
         alert("A karaktered hitetlen!");
@@ -782,6 +858,8 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ce").innerHTML = 10 + (document.getElementById("ugyesseg").innerHTML - 10);
         document.getElementById("ep").innerHTML = 5 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 3);
+        document.getElementById("mana").innerHTML = (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 4 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "";
         document.getElementById("maxhm").innerHTML = 9;
         document.getElementById("hmlimit").innerHTML = 9;
@@ -795,6 +873,8 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ce").innerHTML = 20 + (document.getElementById("ugyesseg").innerHTML - 10);
         document.getElementById("ep").innerHTML = 5 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 3);
+        document.getElementById("mana").innerHTML = (document.getElementById("intelligencia").innerHTML - 10);
+        document.getElementById("pszi").innerHTML = 4 + (document.getElementById("intelligencia").innerHTML - 10);
         document.getElementById("egyeb").innerHTML = "1,5x hallás, 2x látás, Állóképesség -10 órányi futás, Lovaglás: Mf, Idomítás: Mf";
         document.getElementById("maxhm").innerHTML = 9;
         document.getElementById("hmlimit").innerHTML = 9;
@@ -807,15 +887,8 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
     }
 
     if (document.getElementById("kasztselector").value == "bard" && document.getElementById("fajselector").value == "ork") { /*bárd értékei!!! */
-        document.getElementById("ke").innerHTML = 10 + (document.getElementById("gyorsasag").innerHTML - 10);
-        document.getElementById("te").innerHTML = 20 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10) + (document.getElementById("ero").innerHTML - 10);
-        document.getElementById("ve").innerHTML = 75 + (document.getElementById("gyorsasag").innerHTML - 10) + (document.getElementById("ugyesseg").innerHTML - 10);
-        document.getElementById("ce").innerHTML = 10 + (document.getElementById("ugyesseg").innerHTML - 10);
-        document.getElementById("ep").innerHTML = 5 + (document.getElementById("egeszseg").innerHTML - 10);
-        document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 3);
-        document.getElementById("egyeb").innerHTML = "Infralátás, Csapdafelfedezés 20%, Titkosajtó keresés 10%, Földalatti érzék, Kiváló szaglás";
-        document.getElementById("maxhm").innerHTML = 9;
-        document.getElementById("hmlimit").innerHTML = 9;
+    alert("A választott faj nem tartozhat a választott Kasztba!");
+    window.location.reload();
 
     }
     if (document.getElementById("kasztselector").value == "pap" && document.getElementById("fajselector").value == "elf") { /*domvikpap értékei!!! */
