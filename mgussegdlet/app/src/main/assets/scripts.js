@@ -401,6 +401,113 @@ function fegyver() {
         document.getElementById("fegyver1tam").innerHTML = "1";
     }
 
+    if (document.getElementById("fegyver1").value == "fuvocso") {
+        document.getElementById("fegyver1ke").innerHTML = 8;
+        document.getElementById("fegyver1te").innerHTML = 0;
+        document.getElementById("fegyver1ve").innerHTML = 0;
+        document.getElementById("fegyver1ce").innerHTML = 7;
+        document.getElementById("fegyver1sebzes").innerHTML= "spec.";
+        document.getElementById("fegyver1tam").innerHTML = "3";
+    }
+
+    if (document.getElementById("fegyver1").value == "rovidij") {
+        document.getElementById("fegyver1ke").innerHTML = 5;
+        document.getElementById("fegyver1te").innerHTML = 0;
+        document.getElementById("fegyver1ve").innerHTML = 0;
+        document.getElementById("fegyver1ce").innerHTML = 4;
+        document.getElementById("fegyver1sebzes").innerHTML= "1k6";
+        document.getElementById("fegyver1tam").innerHTML = "2";
+    }
+
+    if (document.getElementById("fegyver1").value == "hosszuij") {
+        document.getElementById("fegyver1ke").innerHTML = 4;
+        document.getElementById("fegyver1te").innerHTML = 0;
+        document.getElementById("fegyver1ve").innerHTML = 0;
+        document.getElementById("fegyver1ce").innerHTML = 6;
+        document.getElementById("fegyver1sebzes").innerHTML= "1k6 + 1";
+        document.getElementById("fegyver1tam").innerHTML = "2";
+    }
+
+    if (document.getElementById("fegyver1").value == "visszacsapoij") {
+        document.getElementById("fegyver1ke").innerHTML = 3;
+        document.getElementById("fegyver1te").innerHTML = 0;
+        document.getElementById("fegyver1ve").innerHTML = 0;
+        document.getElementById("fegyver1ce").innerHTML = 8;
+        document.getElementById("fegyver1sebzes").innerHTML= "1k10";
+        document.getElementById("fegyver1tam").innerHTML = "2";
+    }
+
+    if (document.getElementById("fegyver1").value == "elfij") {
+        document.getElementById("fegyver1ke").innerHTML = 6;
+        document.getElementById("fegyver1te").innerHTML = 0;
+        document.getElementById("fegyver1ve").innerHTML = 0;
+        document.getElementById("fegyver1ce").innerHTML = 10;
+        document.getElementById("fegyver1sebzes").innerHTML= "2k6";
+        document.getElementById("fegyver1tam").innerHTML = "2";
+    }
+
+    if (document.getElementById("fegyver1").value == "aquirnyilpuska") {
+        document.getElementById("fegyver1ke").innerHTML = 5;
+        document.getElementById("fegyver1te").innerHTML = 0;
+        document.getElementById("fegyver1ve").innerHTML = 0;
+        document.getElementById("fegyver1ce").innerHTML = 18;
+        document.getElementById("fegyver1sebzes").innerHTML= "1k5";
+        document.getElementById("fegyver1tam").innerHTML = "2";
+    }
+
+    if (document.getElementById("fegyver1").value == "kezinyilpuska") {
+        document.getElementById("fegyver1ke").innerHTML = 3;
+        document.getElementById("fegyver1te").innerHTML = 0;
+        document.getElementById("fegyver1ve").innerHTML = 0;
+        document.getElementById("fegyver1ce").innerHTML = 14;
+        document.getElementById("fegyver1sebzes").innerHTML= "1k3";
+        document.getElementById("fegyver1tam").innerHTML = "2";
+    }
+
+    if (document.getElementById("fegyver1").value == "kahreinyilpuska") {
+        document.getElementById("fegyver1ke").innerHTML = 9;
+        document.getElementById("fegyver1te").innerHTML = 0;
+        document.getElementById("fegyver1ve").innerHTML = 0;
+        document.getElementById("fegyver1ce").innerHTML = 13;
+        document.getElementById("fegyver1sebzes").innerHTML= "1k3";
+        document.getElementById("fegyver1tam").innerHTML = "3";
+    }
+
+    if (document.getElementById("fegyver1").value == "konnyunyilpuska") {
+        document.getElementById("fegyver1ke").innerHTML = 2;
+        document.getElementById("fegyver1te").innerHTML = 0;
+        document.getElementById("fegyver1ve").innerHTML = 0;
+        document.getElementById("fegyver1ce").innerHTML = 16;
+        document.getElementById("fegyver1sebzes").innerHTML= "1k6 + 1";
+        document.getElementById("fegyver1tam").innerHTML = "1";
+    }
+
+    if (document.getElementById("fegyver1").value == "neheznyilpuska") {
+        document.getElementById("fegyver1ke").innerHTML = 0;
+        document.getElementById("fegyver1te").innerHTML = 0;
+        document.getElementById("fegyver1ve").innerHTML = 0;
+        document.getElementById("fegyver1ce").innerHTML = 15;
+        document.getElementById("fegyver1sebzes").innerHTML= "1k10 + 2";
+        document.getElementById("fegyver1tam").innerHTML = "1/3";
+    }
+
+    if (document.getElementById("fegyver1").value == "shadonipanceltoro") {
+        document.getElementById("fegyver1ke").innerHTML = 0;
+        document.getElementById("fegyver1te").innerHTML = 0;
+        document.getElementById("fegyver1ve").innerHTML = 0;
+        document.getElementById("fegyver1ce").innerHTML = 17;
+        document.getElementById("fegyver1sebzes").innerHTML= "2k10";
+        document.getElementById("fegyver1tam").innerHTML = "1/5";
+    }
+
+    if (document.getElementById("fegyver1").value == "parittya") {
+        document.getElementById("fegyver1ke").innerHTML = 2;
+        document.getElementById("fegyver1te").innerHTML = 0;
+        document.getElementById("fegyver1ve").innerHTML = 0;
+        document.getElementById("fegyver1ce").innerHTML = 1;
+        document.getElementById("fegyver1sebzes").innerHTML= "1k5";
+        document.getElementById("fegyver1tam").innerHTML = "2";
+    }
 
 
 }

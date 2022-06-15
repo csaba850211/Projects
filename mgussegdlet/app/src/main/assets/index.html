@@ -536,15 +536,15 @@
                         <option value="parittya">Parittya</option>
 
 
-                        <option value="bola">Shadleki buzogány</option> <!-- egyéb fegyverek!-->
-                        <option value="dobohalo">Egykezes csatabárd</option>
-                        <option value="garott">Kétkezes csatabárd</option>
-                        <option value="haritotor">Csatacsákány</option>
-                        <option value="korbacs">Lovas kopja</option>
-                        <option value="lasszo">Lovas kopja</option>
-                        <option value="ostor">Lovas kopja</option>
-                        <option value="okol">Lovas kopja</option>
-                        <option value="vasokol">Lovas kopja</option>
+                        <option value="bola">Bola</option> <!-- egyéb fegyverek!-->
+                        <option value="dobohalo">Dobóháló</option>
+                        <option value="garott">Garott</option>
+                        <option value="haritotor">Hárítótőr</option>
+                        <option value="korbacs">Korbács</option>
+                        <option value="lasszo">Lasszó</option>
+                        <option value="ostor">Ostor</option>
+                        <option value="okol">Puszta kéz</option>
+                        <option value="vasokol">Vasököl</option>
 
                         <option value="kispajzs">Kis pajzs</option> <!-- pajzsok! -->
                         <option value="kozepespajzs">Közepes pajzs</option>
@@ -556,7 +556,8 @@
                     <label for="">Vé:</label> <output id="fegyver1ve"></output>
                     <label for="">Cé:</label> <output id="fegyver1ce"></output>
                     <label for="">Sebzés:</label> <output id="fegyver1sebzes"></output>
-                    <label for="">Tám/k:</label> <output id="fegyver1tam"></output>                   
+                    <label for="">Tám/k:</label> <output id="fegyver1tam"></output>             
+                    <input type="checkbox" onchange="fegyverrel1()">      
                 </td>
 
 
@@ -576,7 +577,7 @@
                 <td style="width: 60%;">
                     <select name="" id="fegyver2"
                     style="width: 100%; font-size: 10px; background-color: lightgreen; border-radius: 3px;"
-                    onchange="fegyver()">
+                    onchange="fegyver2()">
                     <option value="valassz">Fegyver 2</option> <!-- szúró-vágó fegyverek!-->
                     <option value="shadlekibuzogany">Shadleki buzogány</option>
                     <option value="egykezescsatabard">Egykezes csatabárd</option>
@@ -639,15 +640,15 @@
                     <option value="parittya">Parittya</option>
 
 
-                    <option value="bola">Shadleki buzogány</option> <!-- egyéb fegyverek!-->
-                    <option value="dobohalo">Egykezes csatabárd</option>
-                    <option value="garott">Kétkezes csatabárd</option>
-                    <option value="haritotor">Csatacsákány</option>
-                    <option value="korbacs">Lovas kopja</option>
-                    <option value="lasszo">Lovas kopja</option>
-                    <option value="ostor">Lovas kopja</option>
-                    <option value="okol">Lovas kopja</option>
-                    <option value="vasokol">Lovas kopja</option>
+                    <option value="bola">Bola</option> <!-- egyéb fegyverek!-->
+                    <option value="dobohalo">Dobóháló</option>
+                    <option value="garott">Garott</option>
+                    <option value="haritotor">Hárítótőr</option>
+                    <option value="korbacs">Korbács</option>
+                    <option value="lasszo">Lasszó</option>
+                    <option value="ostor">Ostor</option>
+                    <option value="okol">Ököl</option>
+                    <option value="vasokol">Vasököl</option>
 
                     <option value="kispajzs">Kis pajzs</option> <!-- pajzsok! -->
                     <option value="kozepespajzs">Közepes pajzs</option>
@@ -660,7 +661,7 @@
                 <label for="">Cé:</label> <output id="fegyver2ce"></output>
                 <label for="">Sebzés:</label> <output id="fegyver2sebzes"></output>
                 <label for="">Tám/k:</label> <output id="fegyver2tam"></output>
-
+                <input type="checkbox" onchange="fegyverrel2()">   
                 </td>
             </tr>
 
