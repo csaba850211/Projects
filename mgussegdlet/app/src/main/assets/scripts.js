@@ -3,26 +3,33 @@ var k8 = Math.round(Math.random() * 8 + 1);
 var k10 = Math.round(Math.random() * 10 + 1);
 
 function keplus() { /*harci érték módosítói!!! */
-
-
-
-
     document.getElementById("ke").innerHTML++;
     document.getElementById("maxhm").innerHTML--;
 
     if (document.getElementById("maxhm").innerHTML == -1) {
-        alert("nincs már több pontod!!");
+        alert("Nincs már több pontod!!");
         document.getElementById("maxhm").innerHTML++;
     }
+
+    if (document.getElementById("maxhm").innerHTML == document.getElementById("hmlimit").innerHTML) {
+        alert("Nem oszthatsz el több pontot!");
+        document.getElementById("maxhm").innerHTML--;
+    }
+
 }
 
 function keminus() {
     document.getElementById("ke").innerHTML--;
-    document.getElementById("maxhm").innerHTML--;
+    document.getElementById("maxhm").innerHTML++;
 
     if (document.getElementById("maxhm").innerHTML == -1) {
-        alert("nincs már több pontod!!");
+        alert("Nincs már több pontod!!");
         document.getElementById("maxhm").innerHTML++;
+    }
+
+    if (document.getElementById("maxhm").innerHTML == document.getElementById("hmlimit").innerHTML) {
+        alert("Nem oszthatsz el több pontot!");
+        document.getElementById("maxhm").innerHTML--;
     }
 
 }
@@ -32,19 +39,29 @@ function teplus() {
     document.getElementById("maxhm").innerHTML--;
 
     if (document.getElementById("maxhm").innerHTML == -1) {
-        alert("nincs már több pontod!!");
+        alert("Nincs már több pontod!!");
         document.getElementById("maxhm").innerHTML++;
+    }
+
+    if (document.getElementById("maxhm").innerHTML == document.getElementById("hmlimit").innerHTML) {
+        alert("Nem oszthatsz el több pontot!");
+        document.getElementById("maxhm").innerHTML--;
     }
 
 }
 
 function teminus() {
     document.getElementById("te").innerHTML--;
-    document.getElementById("maxhm").innerHTML--;
+    document.getElementById("maxhm").innerHTML++;
 
     if (document.getElementById("maxhm").innerHTML == -1) {
-        alert("nincs már több pontod!!");
+        alert("Nincs már több pontod!!");
         document.getElementById("maxhm").innerHTML++;
+    }
+
+    if (document.getElementById("maxhm").innerHTML == document.getElementById("hmlimit").innerHTML) {
+        alert("Nem oszthatsz el több pontot!");
+        document.getElementById("maxhm").innerHTML--;
     }
 }
 
@@ -53,19 +70,29 @@ function veplus() {
     document.getElementById("maxhm").innerHTML--;
 
     if (document.getElementById("maxhm").innerHTML == -1) {
-        alert("nincs már több pontod!!");
+        alert("Nincs már több pontod!!");
         document.getElementById("maxhm").innerHTML++;
+    }
+
+    if (document.getElementById("maxhm").innerHTML == document.getElementById("hmlimit").innerHTML) {
+        alert("Nem oszthatsz el több pontot!");
+        document.getElementById("maxhm").innerHTML--;
     }
 
 }
 
 function veminus() {
     document.getElementById("ve").innerHTML--;
-    document.getElementById("maxhm").innerHTML--;
+    document.getElementById("maxhm").innerHTML++;
 
     if (document.getElementById("maxhm").innerHTML == -1) {
-        alert("nincs már több pontod!!");
+        alert("Nincs már több pontod!!");
         document.getElementById("maxhm").innerHTML++;
+    }
+
+    if (document.getElementById("maxhm").innerHTML == document.getElementById("hmlimit").innerHTML) {
+        alert("Nem oszthatsz el több pontot!");
+        document.getElementById("maxhm").innerHTML--;
     }
 }
 hm--;
@@ -74,19 +101,29 @@ function ceplus() {
     document.getElementById("maxhm").innerHTML--;
 
     if (document.getElementById("maxhm").innerHTML == -1) {
-        alert("nincs már több pontod!!");
+        alert("Nincs már több pontod!!");
         document.getElementById("maxhm").innerHTML++;
+    }
+
+    if (document.getElementById("maxhm").innerHTML == document.getElementById("hmlimit").innerHTML) {
+        alert("Nem oszthatsz el több pontot!");
+        document.getElementById("maxhm").innerHTML--;
     }
 
 }
 
 function ceminus() {
     document.getElementById("ce").innerHTML--;
-    document.getElementById("maxhm").innerHTML--;
+    document.getElementById("maxhm").innerHTML++;
 
     if (document.getElementById("maxhm").innerHTML == -1) {
-        alert("nincs már több pontod!!");
+        alert("Nincs már több pontod!!");
         document.getElementById("maxhm").innerHTML++;
+    }
+
+    if (document.getElementById("maxhm").innerHTML == document.getElementById("hmlimit").innerHTML) {
+        alert("Nem oszthatsz el több pontot!");
+        document.getElementById("maxhm").innerHTML--;
     }
 
 }
@@ -259,9 +296,7 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 4);
         document.getElementById("egyeb").innerHTML = "Lovaglás: Mf, Erdőjárás: Mf, Idomítás: Mf, Hőlátás, 2x hallás, 2,5x látás";
         document.getElementById("maxhm").innerHTML = 11;
-
-
-
+        document.getElementById("hmlimit").innerHTML = 11;
     }
 
     if (document.getElementById("kasztselector").value == "harcos" && document.getElementById("fajselector").value == "ember") { /*harcos értékei!!! */
@@ -272,7 +307,8 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 7 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 4);
         document.getElementById("egyeb").innerHTML = "";
-
+        document.getElementById("maxhm").innerHTML = 11;
+        document.getElementById("hmlimit").innerHTML = 11;
     }
 
     if (document.getElementById("kasztselector").value == "harcos" && document.getElementById("fajselector").value == "felelf") { /*harcos értékei!!! */
@@ -283,6 +319,8 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 7 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 4);
         document.getElementById("egyeb").innerHTML = "1,5x hallás, 2x látás, Állóképesség -10 órányi futás, Lovaglás: Mf, Idomítás: Mf";
+        document.getElementById("maxhm").innerHTML = 11;
+        document.getElementById("hmlimit").innerHTML = 11;
     }
 
     if (document.getElementById("kasztselector").value == "harcos" && document.getElementById("fajselector").value == "torpe") { /*harcos értékei!!! */
@@ -293,6 +331,8 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 7 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 4);
         document.getElementById("egyeb").innerHTML = "Hőlátás, Csapdakeresés: 35%, Titkosajtó keresés: 30% Földalatti érzék, Építmény korát meg tudják határozni";
+        document.getElementById("maxhm").innerHTML = 11;
+        document.getElementById("hmlimit").innerHTML = 11;
     }
 
     if (document.getElementById("kasztselector").value == "harcos" && document.getElementById("fajselector").value == "ork") { /*harcos értékei!!! */
@@ -303,6 +343,8 @@ function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, 
         document.getElementById("ep").innerHTML = 7 + (document.getElementById("egeszseg").innerHTML - 10);
         document.getElementById("fp").innerHTML = 6 + (document.getElementById("allokepesseg").innerHTML - 10) + (document.getElementById("akaratero").innerHTML - 10) + (k6 + 4);
         document.getElementById("egyeb").innerHTML = "Infralátás, Csapdafelfedezés 20%, Titkosajtó keresés 10%, Földalatti érzék, Kiváló szaglás";
+        document.getElementById("maxhm").innerHTML = 11;
+        document.getElementById("hmlimit").innerHTML = 11;
     }
 
     if (document.getElementById("kasztselector").value == "gladiator" && document.getElementById("fajselector").value == "elf") { /*gladiátor értékei!!! */
