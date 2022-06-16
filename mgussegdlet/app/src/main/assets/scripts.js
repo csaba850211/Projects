@@ -1,3 +1,4 @@
+var k3 = Math.round(Math.random() * 3 + 1);
 var k6 = Math.round(Math.random() * 6 + 1); /*dobókocka hat oldalú*/
 var k8 = Math.round(Math.random() * 8 + 1);
 var k10 = Math.round(Math.random() * 10 + 1);
@@ -13,6 +14,42 @@ function szintplus() {
         document.getElementById("maxhm").innerHTML = 11;
         document.getElementById("fp").innerHTML = parseFloat(document.getElementById("fp").innerHTML) + (k6 + 4);
     }
+
+    if (document.getElementById("kasztselector").value == "gladiator") {
+        document.getElementById("maxhm").innerHTML = 12;
+        document.getElementById("fp").innerHTML = parseFloat(document.getElementById("fp").innerHTML) + (k6 + 5);
+    }
+
+    if (document.getElementById("kasztselector").value == "fejvadasz") {
+        document.getElementById("maxhm").innerHTML = 11;
+        document.getElementById("fp").innerHTML = parseFloat(document.getElementById("fp").innerHTML) + (k6 + 5);
+        document.getElementById("pszi").innerHTML = parseFloat(document.getElementById("pszi").innerHTML) + 3;
+    }
+
+    if (document.getElementById("kasztselector").value == "lovag") {
+        document.getElementById("maxhm").innerHTML = 12;
+        document.getElementById("fp").innerHTML = parseFloat(document.getElementById("fp").innerHTML) + (k6 + 5);
+    }
+
+    if (document.getElementById("kasztselector").value == "tolvaj") {
+        document.getElementById("maxhm").innerHTML = 6;
+        document.getElementById("fp").innerHTML = parseFloat(document.getElementById("fp").innerHTML) + (k6 + 3);
+    }
+
+    if (document.getElementById("kasztselector").value == "bard") {
+        document.getElementById("maxhm").innerHTML = 9;
+        document.getElementById("fp").innerHTML = parseFloat(document.getElementById("fp").innerHTML) + (k6 + 3);
+        document.getElementById("pszi").innerHTML = parseFloat(document.getElementById("pszi").innerHTML) + 3;
+    }
+
+    if (document.getElementById("kasztselector").value == "pap") {
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("fp").innerHTML = parseFloat(document.getElementById("fp").innerHTML) + (k6 + 2);
+        document.getElementById("pszi").innerHTML = parseFloat(document.getElementById("pszi").innerHTML) + 4;
+        document.getElementById("mana").innerHTML = parseFloat(document.getElementById("mana").innerHTML) + (k3 + 6);
+    }
+
+
 }
 
 function fegyverrel1() {    
