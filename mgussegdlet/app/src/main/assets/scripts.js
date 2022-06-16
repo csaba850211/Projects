@@ -1872,124 +1872,94 @@ function keplus() { /*harci érték módosítói!!! */
     if (document.getElementById("maxhm").innerHTML == -1) {
         alert("Nincs már több pontod!!");
         document.getElementById("maxhm").innerHTML++;
+        document.getElementById("ke").innerHTML--;
     }
-
-    if (document.getElementById("maxhm").innerHTML == document.getElementById("hmlimit").innerHTML) {
-        alert("Nem oszthatsz el több pontot!");
-        document.getElementById("maxhm").innerHTML--;
-    }
-
 }
 
 function keminus() {
     document.getElementById("ke").innerHTML--;
     document.getElementById("maxhm").innerHTML++;
-
-    if (document.getElementById("maxhm").innerHTML == -1) {
-        alert("Nincs már több pontod!!");
-        document.getElementById("maxhm").innerHTML++;
-    }
-
-    if (document.getElementById("maxhm").innerHTML == document.getElementById("hmlimit").innerHTML) {
-        alert("Nem oszthatsz el több pontot!");
+    
+    if (parseFloat(document.getElementById("maxhm").innerText) > parseFloat(document.getElementById("hmlimit").innerText)) {
         document.getElementById("maxhm").innerHTML--;
+        document.getElementById("ke").innerHTML++;
+        alert("Nem vonhatsz le több pontot!")
     }
-
 }
 
-function teplus() {
+function teplus() { /*harci érték módosítói!!! */
     document.getElementById("te").innerHTML++;
     document.getElementById("maxhm").innerHTML--;
 
     if (document.getElementById("maxhm").innerHTML == -1) {
         alert("Nincs már több pontod!!");
         document.getElementById("maxhm").innerHTML++;
+        document.getElementById("te").innerHTML--;
     }
-
-    if (document.getElementById("maxhm").innerHTML == document.getElementById("hmlimit").innerHTML) {
-        alert("Nem oszthatsz el több pontot!");
-        document.getElementById("maxhm").innerHTML--;
-    }
-
 }
 
 function teminus() {
     document.getElementById("te").innerHTML--;
     document.getElementById("maxhm").innerHTML++;
-
-    if (document.getElementById("maxhm").innerHTML == -1) {
-        alert("Nincs már több pontod!!");
-        document.getElementById("maxhm").innerHTML++;
-    }
-
-    if (document.getElementById("maxhm").innerHTML == document.getElementById("hmlimit").innerHTML) {
-        alert("Nem oszthatsz el több pontot!");
+    
+    if (parseFloat(document.getElementById("maxhm").innerText) > parseFloat(document.getElementById("hmlimit").innerText)) {
         document.getElementById("maxhm").innerHTML--;
+        document.getElementById("te").innerHTML++;
+        alert("Nem vonhatsz le több pontot!")
+
     }
 }
 
-function veplus() {
+function veplus() { /*harci érték módosítói!!! */
     document.getElementById("ve").innerHTML++;
     document.getElementById("maxhm").innerHTML--;
 
     if (document.getElementById("maxhm").innerHTML == -1) {
         alert("Nincs már több pontod!!");
         document.getElementById("maxhm").innerHTML++;
+        document.getElementById("ve").innerHTML--;
     }
-
-    if (document.getElementById("maxhm").innerHTML == document.getElementById("hmlimit").innerHTML) {
-        alert("Nem oszthatsz el több pontot!");
-        document.getElementById("maxhm").innerHTML--;
-    }
-
 }
 
 function veminus() {
     document.getElementById("ve").innerHTML--;
     document.getElementById("maxhm").innerHTML++;
-
-    if (document.getElementById("maxhm").innerHTML == -1) {
-        alert("Nincs már több pontod!!");
-        document.getElementById("maxhm").innerHTML++;
-    }
-
-    if (document.getElementById("maxhm").innerHTML == document.getElementById("hmlimit").innerHTML) {
-        alert("Nem oszthatsz el több pontot!");
+    
+    if (parseFloat(document.getElementById("maxhm").innerText) > parseFloat(document.getElementById("hmlimit").innerText)) {
         document.getElementById("maxhm").innerHTML--;
+        document.getElementById("ve").innerHTML++;
+        alert("Nem vonhatsz le több pontot!")
+
     }
 }
 
-function ceplus() {
+function ceplus() { /*harci érték módosítói!!! */
     document.getElementById("ce").innerHTML++;
     document.getElementById("maxhm").innerHTML--;
 
     if (document.getElementById("maxhm").innerHTML == -1) {
         alert("Nincs már több pontod!!");
         document.getElementById("maxhm").innerHTML++;
+        document.getElementById("ce").innerHTML--;
     }
-
-    if (document.getElementById("maxhm").innerHTML == document.getElementById("hmlimit").innerHTML) {
-        alert("Nem oszthatsz el több pontot!");
-        document.getElementById("maxhm").innerHTML--;
-    }
-
 }
 
 function ceminus() {
     document.getElementById("ce").innerHTML--;
     document.getElementById("maxhm").innerHTML++;
-
-    if (document.getElementById("maxhm").innerHTML == -1) {
-        alert("Nincs már több pontod!!");
-        document.getElementById("maxhm").innerHTML++;
-    }
-
-    if (document.getElementById("maxhm").innerHTML == document.getElementById("hmlimit").innerHTML) {
-        alert("Nem oszthatsz el több pontot!");
+    
+    if (parseFloat(document.getElementById("maxhm").innerText) > parseFloat(document.getElementById("hmlimit").innerText)) {
         document.getElementById("maxhm").innerHTML--;
-    }
+        document.getElementById("ce").innerHTML++;
+        alert("Nem vonhatsz le több pontot!")
 
+    }
 }
+
+
+
+
+
 
 
 function eroplus() { /*ezek az eroplus minus ugyessegplus minus stb a tulajdonságok gombjai*/
