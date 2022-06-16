@@ -156,7 +156,7 @@ function fegyver() {
         document.getElementById("fegyver1ce").innerHTML = 0;
         document.getElementById("fegyver1sebzes").innerHTML= "1k10 + 2";
         document.getElementById("fegyver1tam").innerHTML = "1";
-    
+    }
 
     if (document.getElementById("fegyver1").value == "kigyokard") {
         document.getElementById("fegyver1ke").innerHTML = 6;
@@ -620,7 +620,6 @@ function fegyver() {
 
 }
 
-}
 
 
 function fegyver2() { 
@@ -777,7 +776,7 @@ function fegyver2() {
         document.getElementById("fegyver2ce").innerHTML = 0;
         document.getElementById("fegyver2sebzes").innerHTML= "1k10 + 2";
         document.getElementById("fegyver2tam").innerHTML = "1";
-    
+    }
 
     if (document.getElementById("fegyver2").value == "kigyokard") {
         document.getElementById("fegyver2ke").innerHTML = 6;
@@ -1241,7 +1240,6 @@ function fegyver2() {
 
 }
 
-}
 
 function fegyver3() {  /*harmadik fegyversor */
 
@@ -1397,7 +1395,7 @@ function fegyver3() {  /*harmadik fegyversor */
         document.getElementById("fegyver3ce").innerHTML = 0;
         document.getElementById("fegyver3sebzes").innerHTML= "1k10 + 2";
         document.getElementById("fegyver3tam").innerHTML = "1";
-    
+    }
 
     if (document.getElementById("fegyver3").value == "kigyokard") {
         document.getElementById("fegyver3ke").innerHTML = 6;
@@ -1768,7 +1766,7 @@ function fegyver3() {  /*harmadik fegyversor */
         document.getElementById("fegyver3tam").innerHTML = "1/3";
     }
 
-    if (document.getElementById("fegyve3").value == "garrott") {
+    if (document.getElementById("fegyver3").value == "garrott") {
         document.getElementById("fegyver3ke").innerHTML = 0;
         document.getElementById("fegyver3te").innerHTML = 5;
         document.getElementById("fegyver3ve").innerHTML = -20;
@@ -1861,10 +1859,6 @@ function fegyver3() {  /*harmadik fegyversor */
 
 }
 
-}
-
-
-
 function keplus() { /*harci érték módosítói!!! */
     document.getElementById("ke").innerHTML++;
     document.getElementById("maxhm").innerHTML--;
@@ -1955,12 +1949,6 @@ function ceminus() {
 
     }
 }
-
-
-
-
-
-
 
 function eroplus() { /*ezek az eroplus minus ugyessegplus minus stb a tulajdonságok gombjai*/
     document.getElementById("ero").innerHTML++;
