@@ -7,20 +7,21 @@ function fegyverrel1() {
     document.getElementById("fullte1").innerHTML = parseFloat(document.getElementById("te").innerHTML) + parseFloat(document.getElementById("fegyver1te").innerHTML);
     document.getElementById("fullve1").innerHTML = parseFloat(document.getElementById("ve").innerHTML) + parseFloat(document.getElementById("fegyver1ve").innerHTML);
     document.getElementById("fullce1").innerHTML = parseFloat(document.getElementById("ce").innerHTML) + parseFloat(document.getElementById("fegyver1ce").innerHTML);
-}
 
-function fegyverrel2() {
     document.getElementById("fullke2").innerHTML = parseFloat(document.getElementById("ke").innerHTML) + parseFloat(document.getElementById("fegyver2ke").innerHTML);
     document.getElementById("fullte2").innerHTML = parseFloat(document.getElementById("te").innerHTML) + parseFloat(document.getElementById("fegyver2te").innerHTML);
     document.getElementById("fullve2").innerHTML = parseFloat(document.getElementById("ve").innerHTML) + parseFloat(document.getElementById("fegyver2ve").innerHTML);
     document.getElementById("fullce2").innerHTML = parseFloat(document.getElementById("ce").innerHTML) + parseFloat(document.getElementById("fegyver2ce").innerHTML);
-}
 
-function fegyverrel3() {
     document.getElementById("fullke3").innerHTML = parseFloat(document.getElementById("ke").innerHTML) + parseFloat(document.getElementById("fegyver3ke").innerHTML);
     document.getElementById("fullte3").innerHTML = parseFloat(document.getElementById("te").innerHTML) + parseFloat(document.getElementById("fegyver3te").innerHTML);
     document.getElementById("fullve3").innerHTML = parseFloat(document.getElementById("ve").innerHTML) + parseFloat(document.getElementById("fegyver3ve").innerHTML);
     document.getElementById("fullce3").innerHTML = parseFloat(document.getElementById("ce").innerHTML) + parseFloat(document.getElementById("fegyver3ce").innerHTML);
+
+    document.getElementById("fullke4").innerHTML = parseFloat(document.getElementById("ke").innerHTML) + parseFloat(document.getElementById("fegyver4ke").innerHTML);
+    document.getElementById("fullte4").innerHTML = parseFloat(document.getElementById("te").innerHTML) + parseFloat(document.getElementById("fegyver4te").innerHTML);
+    document.getElementById("fullve4").innerHTML = parseFloat(document.getElementById("ve").innerHTML) + parseFloat(document.getElementById("fegyver4ve").innerHTML);
+    document.getElementById("fullce4").innerHTML = parseFloat(document.getElementById("ce").innerHTML) + parseFloat(document.getElementById("fegyver4ce").innerHTML);
 }
 
 
