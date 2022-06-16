@@ -2,7 +2,29 @@ var k6 = Math.round(Math.random() * 6 + 1); /*dobókocka hat oldalú*/
 var k8 = Math.round(Math.random() * 8 + 1);
 var k10 = Math.round(Math.random() * 10 + 1);
 
-function fegyver() {
+function fegyverrel1() {    
+    document.getElementById("fullke1").innerHTML = parseFloat(document.getElementById("ke").innerHTML) + parseFloat(document.getElementById("fegyver1ke").innerHTML);
+    document.getElementById("fullte1").innerHTML = parseFloat(document.getElementById("te").innerHTML) + parseFloat(document.getElementById("fegyver1te").innerHTML);
+    document.getElementById("fullve1").innerHTML = parseFloat(document.getElementById("ve").innerHTML) + parseFloat(document.getElementById("fegyver1ve").innerHTML);
+    document.getElementById("fullce1").innerHTML = parseFloat(document.getElementById("ce").innerHTML) + parseFloat(document.getElementById("fegyver1ce").innerHTML);
+}
+
+function fegyverrel2() {
+    document.getElementById("fullke2").innerHTML = parseFloat(document.getElementById("ke").innerHTML) + parseFloat(document.getElementById("fegyver2ke").innerHTML);
+    document.getElementById("fullte2").innerHTML = parseFloat(document.getElementById("te").innerHTML) + parseFloat(document.getElementById("fegyver2te").innerHTML);
+    document.getElementById("fullve2").innerHTML = parseFloat(document.getElementById("ve").innerHTML) + parseFloat(document.getElementById("fegyver2ve").innerHTML);
+    document.getElementById("fullce2").innerHTML = parseFloat(document.getElementById("ce").innerHTML) + parseFloat(document.getElementById("fegyver2ce").innerHTML);
+}
+
+function fegyverrel3() {
+    document.getElementById("fullke3").innerHTML = parseFloat(document.getElementById("ke").innerHTML) + parseFloat(document.getElementById("fegyver3ke").innerHTML);
+    document.getElementById("fullte3").innerHTML = parseFloat(document.getElementById("te").innerHTML) + parseFloat(document.getElementById("fegyver3te").innerHTML);
+    document.getElementById("fullve3").innerHTML = parseFloat(document.getElementById("ve").innerHTML) + parseFloat(document.getElementById("fegyver3ve").innerHTML);
+    document.getElementById("fullce3").innerHTML = parseFloat(document.getElementById("ce").innerHTML) + parseFloat(document.getElementById("fegyver3ce").innerHTML);
+}
+
+
+function fegyver() { /*elso fegyversor */
 
     if (document.getElementById("fegyver1").value == "valassz") {
         document.getElementById("fegyver1ke").innerHTML = 0;
@@ -617,12 +639,9 @@ function fegyver() {
         document.getElementById("fegyver1tam").innerHTML = "1/2";
     }
 
-
 }
 
-
-
-function fegyver2() { 
+function fegyver2() {  /*második fegyversor */
 
     if (document.getElementById("fegyver2").value == "valassz") {
         document.getElementById("fegyver2ke").innerHTML = 0;
@@ -1239,7 +1258,6 @@ function fegyver2() {
 
 
 }
-
 
 function fegyver3() {  /*harmadik fegyversor */
 
@@ -1859,7 +1877,7 @@ function fegyver3() {  /*harmadik fegyversor */
 
 }
 
-function fegyver4() {  /*harmadik fegyversor */
+function fegyver4() {  /*negyedik fegyversor */
 
     if (document.getElementById("fegyver4").value == "valassz") {
         document.getElementById("fegyver4ke").innerHTML = 0;
@@ -2476,7 +2494,6 @@ function fegyver4() {  /*harmadik fegyversor */
 
 
 }
-
 
 function keplus() { /*harci érték módosítói!!! */
     document.getElementById("ke").innerHTML++;
