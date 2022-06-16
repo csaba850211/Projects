@@ -1,13 +1,14 @@
-var k3 = Math.round(Math.random() * 3 + 1);
+var k3 = Math.round(Math.random() * 3 + 1); /*dobókocka három oldalú */
 var k6 = Math.round(Math.random() * 6 + 1); /*dobókocka hat oldalú*/
-var k8 = Math.round(Math.random() * 8 + 1);
-var k10 = Math.round(Math.random() * 10 + 1);
+var k8 = Math.round(Math.random() * 8 + 1); /*dobókocka nyolc oldalú */
+var k10 = Math.round(Math.random() * 10 + 1); /*dobókocka tíz oldalú */
 
 function ismerteto() {
     alert("Üdvözöllek a M.A.G.U.S. karakterkészítőben. Első lépésként válassz fajt. Második lépésként válassz kasztot. Harmadik lépésként válassz vallást. Fontos: bizonyos kasztoknál kötelező vallást választani! Valamint, némely faj nem tartozhat bármely kasztba! Miután ezekkel megvagy, nyomj az 'értékek kidobása!' gombra. Ezután a 'számolj!' gombra. A fegyveres harcérték számításával tudod a karakter teljes harcértékeit megjeleníteni. Itt a harcértékek nevei mellett a fegyverek saját értékei vannak, míg a rózsaszín rubrikába a teljes kiszámított érték. Ha nem vagy elégedett a kockadobásos tulajdonságok meghatározásával, akkor a '+' és a '-' gombokkal beállíthatod magadnak. Azonban ilyenkor újra a 'számolj'-t kell nyomnod, valamint a harci értéket is újra csinálni.")
 }
 
 function szintplus() {
+
     document.getElementById("szint").innerHTML++;
 
     if (document.getElementById("kasztselector").value == "harcos") {
@@ -40,6 +41,8 @@ function szintplus() {
         document.getElementById("maxhm").innerHTML = 9;
         document.getElementById("fp").innerHTML = parseFloat(document.getElementById("fp").innerHTML) + (k6 + 3);
         document.getElementById("pszi").innerHTML = parseFloat(document.getElementById("pszi").innerHTML) + 3;
+        document.getElementById("mana").innerHTML = parseFloat(document.getElementById("mana").innerHTML) + (parseFloat(document.getElementById("intelligencia").innerHTML) - 10);
+
     }
 
     if (document.getElementById("kasztselector").value == "pap") {
@@ -49,6 +52,52 @@ function szintplus() {
         document.getElementById("mana").innerHTML = parseFloat(document.getElementById("mana").innerHTML) + (k3 + 6);
     }
 
+    if (document.getElementById("kasztselector").value == "paplovag") {
+        document.getElementById("maxhm").innerHTML = 9;
+        document.getElementById("fp").innerHTML = parseFloat(document.getElementById("fp").innerHTML) + (k6 + 5);
+        document.getElementById("pszi").innerHTML = parseFloat(document.getElementById("pszi").innerHTML) + 4;
+        document.getElementById("mana").innerHTML = parseFloat(document.getElementById("mana").innerHTML) + (k3 + 6);
+    }
+
+    if (document.getElementById("kasztselector").value == "harcmuvesz") {
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("fp").innerHTML = parseFloat(document.getElementById("fp").innerHTML) + (k6 + 5);
+        document.getElementById("pszi").innerHTML = parseFloat(document.getElementById("pszi").innerHTML) + 5;
+    }
+
+    if (document.getElementById("kasztselector").value == "kardmuvesz") {
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("fp").innerHTML = parseFloat(document.getElementById("fp").innerHTML) + (k6 + 5);
+        document.getElementById("pszi").innerHTML = parseFloat(document.getElementById("pszi").innerHTML) + 5;
+    }
+
+    if (document.getElementById("kasztselector").value == "boszorkany") {
+        document.getElementById("maxhm").innerHTML = 4;
+        document.getElementById("fp").innerHTML = parseFloat(document.getElementById("fp").innerHTML) + (k6);
+        document.getElementById("pszi").innerHTML = parseFloat(document.getElementById("pszi").innerHTML) + 4;
+        document.getElementById("mana").innerHTML = parseFloat(document.getElementById("mana").innerHTML) + 8;
+    }
+
+    if (document.getElementById("kasztselector").value == "boszorkanymester") {
+        document.getElementById("maxhm").innerHTML = 7;
+        document.getElementById("fp").innerHTML = parseFloat(document.getElementById("fp").innerHTML) + (k6 + 1);
+        document.getElementById("pszi").innerHTML = parseFloat(document.getElementById("pszi").innerHTML) + 4;
+        document.getElementById("mana").innerHTML = parseFloat(document.getElementById("mana").innerHTML) + 7;
+    }
+
+    if (document.getElementById("kasztselector").value == "tuzvarazslo") {
+        document.getElementById("maxhm").innerHTML = 8;
+        document.getElementById("fp").innerHTML = parseFloat(document.getElementById("fp").innerHTML) + (k6 + 1);
+        document.getElementById("pszi").innerHTML = parseFloat(document.getElementById("pszi").innerHTML) + 4;
+        document.getElementById("mana").innerHTML = parseFloat(document.getElementById("mana").innerHTML) + 5;
+    }
+
+    if (document.getElementById("kasztselector").value == "varazslo") {
+        document.getElementById("maxhm").innerHTML = 4;
+        document.getElementById("fp").innerHTML = parseFloat(document.getElementById("fp").innerHTML) + (k6);
+        document.getElementById("pszi").innerHTML = parseFloat(document.getElementById("pszi").innerHTML) + 7;
+        document.getElementById("mana").innerHTML = parseFloat(document.getElementById("mana").innerHTML) + 10;
+    }
 
 }
 
