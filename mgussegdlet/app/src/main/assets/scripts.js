@@ -6,6 +6,15 @@ function ismerteto() {
     alert("Üdvözöllek a M.A.G.U.S. karakterkészítőben. Első lépésként válassz fajt. Második lépésként válassz kasztot. Harmadik lépésként válassz vallást. Fontos: bizonyos kasztoknál kötelező vallást választani! Valamint, némely faj nem tartozhat bármely kasztba! Miután ezekkel megvagy, nyomj az 'értékek kidobása!' gombra. Ezután a 'számolj!' gombra. A fegyveres harcérték számításával tudod a karakter teljes harcértékeit megjeleníteni. Itt a harcértékek nevei mellett a fegyverek saját értékei vannak, míg a rózsaszín rubrikába a teljes kiszámított érték. Ha nem vagy elégedett a kockadobásos tulajdonságok meghatározásával, akkor a '+' és a '-' gombokkal beállíthatod magadnak. Azonban ilyenkor újra a 'számolj'-t kell nyomnod, valamint a harci értéket is újra csinálni.")
 }
 
+function szintplus() {
+    document.getElementById("szint").innerHTML++;
+
+    if (document.getElementById("kasztselector").value == "harcos") {
+        document.getElementById("maxhm").innerHTML = 11;
+        document.getElementById("fp").innerHTML = parseFloat(document.getElementById("fp").innerHTML) + (k6 + 4);
+    }
+}
+
 function fegyverrel1() {    
     document.getElementById("fullke1").innerHTML = parseFloat(document.getElementById("ke").innerHTML) + parseFloat(document.getElementById("fegyver1ke").innerHTML);
     document.getElementById("fullte1").innerHTML = parseFloat(document.getElementById("te").innerHTML) + parseFloat(document.getElementById("fegyver1te").innerHTML);
