@@ -26,12 +26,18 @@ body {
     border: 5px solid rgba(13, 22, 27, 1);
     border-radius: 50%;
     border-top-color: rgb(164, 194, 31);
-    animation: spin 1s infinite;
+    animation: spin2 1s infinite;
 
 }
 
 @keyframes spin {
     100% {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes spin2 {
+    100% {
+        transform: rotate(-360deg);
     }
 }
