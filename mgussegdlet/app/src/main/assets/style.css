@@ -26,6 +26,10 @@
 
 }
 
+table {
+  backdrop-filter: blur(1px);
+}
+
 tr {
   opacity: 0.85;
 }
@@ -46,10 +50,21 @@ td {
   }
 }
 
-body {
-  background-image: url("htmlmedia/ynev_poszter_lowres.jpg");
-  background-size: 200%;
-  background-position: center;
+
+#rune {
+  position: absolute;
+  z-index: -1;
+  width: 300%;
+  object-fit: fill;
   backdrop-filter: blur(2px);
+  display: block;
+  left: -950px;
+  top: -350px;
+  animation: forog 60s infinite;
 }
 
+@keyframes forog {
+  100% {
+      transform: rotate(360deg);
+  }
+}
