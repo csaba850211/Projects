@@ -1,19 +1,18 @@
 
 body {
-    background-image: url("htmlmedia/ynev_poszter_lowres.jpg");
+    background-image: url("htmlmedia/index2a.jpg");
     background-repeat: no-repeat;
-    background-size: 300%;
-    background-position: 70%;
-    backdrop-filter: blur(3px);
+    background-size: 324%;
     animation: drop 4s forwards;
     border-radius: 5%;
+    text-align: center;
 }
 
 button {
-    width: 100%;
+    width: 80%;
     padding: 20px;
     font-size: 24px;
-    opacity: 0.7;
+    opacity: 0.8;
     margin-top: 20px;
     border-radius: 12px;
     border: 1px;
@@ -27,4 +26,47 @@ table {
     100% {
         transform: translateY(30%);
     }
+}
+
+#vilagbutton {
+    background-image: url("htmlmedia/vilag.jpg");
+    background-position: 30%;
+    color: darkblue;
+    font-weight: bold;
+}
+
+#kasztokbutton {
+    background-image: url("htmlmedia/kasztok.jpg");
+    background-position: 10% 20%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    font-weight: bold;
+
+}
+
+#fajokbutton {
+    background-image: url("htmlmedia/fajok.jpg");
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: darkgreen;
+    font-weight: bold;
+
+}
+
+#egyebbutton {
+    background-image: url("htmlmedia/egyeb.jpg");
+    background-position: 70% 40%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: red;
+    font-weight: bold;
+
+
+}
+
+#gomb {
+    background-color: grey;
+    font-size: 30px;
 }
