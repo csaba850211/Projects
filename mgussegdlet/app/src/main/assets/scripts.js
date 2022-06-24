@@ -1,3 +1,5 @@
+
+
 var k3 = Math.round(Math.random() * 3 + 1); /*dobókocka három oldalú */
 var k6 = Math.round(Math.random() * 6 + 1); /*dobókocka hat oldalú*/
 var k8 = Math.round(Math.random() * 8 + 1); /*dobókocka nyolc oldalú */

@@ -7,5 +7,9 @@ function riegoy() {
 }
 
 function tarin() {
-    window.location = 'tarin.html'
+    window.location = 'tarin.html';
   }
+
+function doran() {
+    window.location = 'doran.html';
+}
