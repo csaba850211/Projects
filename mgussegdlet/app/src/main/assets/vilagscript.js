@@ -5,3 +5,7 @@ function sirenar() {
 function riegoy() {
     window.location = 'riegoy.html';
 }
+
+function tarin() {
+    window.location = 'tarin.html'
+  }
