@@ -1,3 +1,16 @@
+function goorszag() {
+    if (document.getElementById("orszagselector").value = "doran")  {
+        window.scrollTo(1100,300);
+    }
+
+    if (document.getElementById("orszagselector").value = "tarin")  {
+        window.scrollTo(1000,200);
+    }
+    
+    
+}
+
+
 function sirenar() {
     window.location = 'sirenar.html';
 }
