@@ -1,13 +1,18 @@
 function goorszag() {
-    if (document.getElementById("orszagselector").value = "doran")  {
-        window.scrollTo(1100,300);
+
+    if (document.getElementById("orszagselector").value = "doran") {
+        document.getElementById("doran").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
     }
 
-    if (document.getElementById("orszagselector").value = "tarin")  {
-        window.scrollTo(1000,200);
+    if (document.getElementById("orszagselector").value = "tarin") {
+        document.getElementById("tarin").scrollIntoView({ behavior: "smooth", block: "center", inline: "center"});
     }
-    
-    
+
+    if (document.getElementById("orszagselector").value = "riegoy") {
+        document.getElementById("riegoy").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
+    }
+
+
 }
 
 
@@ -21,7 +26,7 @@ function riegoy() {
 
 function tarin() {
     window.location = 'tarin.html';
-  }
+}
 
 function doran() {
     window.location = 'doran.html';
