@@ -16,6 +16,11 @@ function goorszag() {
         document.getElementById("riegoy").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
     }
 
+    if (document.getElementById("orszagselector").value == "gianag") {
+        document.getElementById("gianag").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
+    }
+
+
 
 }
 
@@ -34,4 +39,8 @@ function tarin() {
 
 function doran() {
     window.location = 'doran.html';
+}
+
+function gianag() {
+    window.location = 'gianag.html';
 }
