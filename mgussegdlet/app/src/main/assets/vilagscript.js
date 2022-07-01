@@ -1,14 +1,18 @@
 function goorszag() {
 
-    if (document.getElementById("orszagselector").value = "doran") {
+    if (document.getElementById("orszagselector").value == "valassz") {
+        location.reload();
+    }
+
+    if (document.getElementById("orszagselector").value == "doran") {
         document.getElementById("doran").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
     }
 
-    if (document.getElementById("orszagselector").value = "tarin") {
+    if (document.getElementById("orszagselector").value == "tarin") {
         document.getElementById("tarin").scrollIntoView({ behavior: "smooth", block: "center", inline: "center"});
     }
 
-    if (document.getElementById("orszagselector").value = "riegoy") {
+    if (document.getElementById("orszagselector").value == "riegoy") {
         document.getElementById("riegoy").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
     }
 
