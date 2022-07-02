@@ -51,5 +51,5 @@ function gianag() {
 }
 
 function haonwell() {
-    windows.location = 'haonwell.html';
+    window.location = 'haonwell.html';
 }
