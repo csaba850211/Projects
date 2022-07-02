@@ -20,6 +20,11 @@ function goorszag() {
         document.getElementById("gianag").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
     }
 
+    if (document.getElementById("orszagselector").value == "haonwell") {
+        document.getElementById("haonwell").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
+    }
+
+
 
 
 }
@@ -43,4 +48,8 @@ function doran() {
 
 function gianag() {
     window.location = 'gianag.html';
+}
+
+function haonwell() {
+    windows.location = 'haonwell.html';
 }
