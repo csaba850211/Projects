@@ -24,6 +24,9 @@ function goorszag() {
         document.getElementById("haonwell").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
     }
 
+    if (document.getElementById("orszagselector").value == "sirenar") {
+        document.getElementById("sirenar").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
+    }
 
 
 
