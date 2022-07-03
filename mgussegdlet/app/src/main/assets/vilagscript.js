@@ -28,6 +28,9 @@ function goorszag() {
         document.getElementById("sirenar").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
     }
 
+    if (document.getElementById("orszagselector").value == "eren") {
+        document.getElementById("eren").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
+    }
 
 
 }
@@ -55,4 +58,8 @@ function gianag() {
 
 function haonwell() {
     window.location = 'haonwell.html';
+}
+
+function eren() {
+    window.location = 'eren.html'
 }
