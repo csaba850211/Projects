@@ -36,6 +36,10 @@ function goorszag() {
         document.getElementById("erigow").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
     }
 
+    if (document.getElementById("orszagselector").value == "ilanor") {
+        document.getElementById("ilanor").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
+    }
+
 
 }
 
@@ -65,9 +69,13 @@ function haonwell() {
 }
 
 function eren() {
-    window.location = 'eren.html'
+    window.location = 'eren.html';
 }
 
 function erigow() {
-    window.location = 'erigow.html'
+    window.location = 'erigow.html';
+}
+
+function ilanor() {
+    window.location = 'ilanor.html';
 }
