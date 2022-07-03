@@ -40,6 +40,9 @@ function goorszag() {
         document.getElementById("ilanor").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
     }
 
+    if (document.getElementById("orszagselector").value == "tiadlan") {
+        document.getElementById("tiadlan").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
+    }
 
 }
 
@@ -78,4 +81,8 @@ function erigow() {
 
 function ilanor() {
     window.location = 'ilanor.html';
+}
+
+function tiadlan() {
+    window.location = 'tiadlan.html';
 }
