@@ -32,6 +32,10 @@ function goorszag() {
         document.getElementById("eren").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
     }
 
+    if (document.getElementById("orszagselector").value == "erigow") {
+        document.getElementById("erigow").scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
+    }
+
 
 }
 
@@ -62,4 +66,8 @@ function haonwell() {
 
 function eren() {
     window.location = 'eren.html'
+}
+
+function erigow() {
+    window.location = 'erigow.html'
 }
