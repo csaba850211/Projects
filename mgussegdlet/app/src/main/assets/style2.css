@@ -1,8 +1,35 @@
 
+#myVideo {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 300%;
+    height: auto;
+    z-index: -1;
+    border-right: 500px;
+  }
+
+.video1 {
+    animation: fadeIn 8s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+    
+}
+
 body {
-    background-image: url("htmlmedia/index2a.jpg");
-    background-repeat: no-repeat;
-    background-size: 324%;
+    background-color: black;
+}
+
+#body {
+    
     animation: drop 4s forwards;
     border-radius: 5%;
     text-align: center;
