@@ -5,6 +5,20 @@ var k6 = Math.round(Math.random() * 6 + 1); /*dobókocka hat oldalú*/
 var k8 = Math.round(Math.random() * 8 + 1); /*dobókocka nyolc oldalú */
 var k10 = Math.round(Math.random() * 10 + 1); /*dobókocka tíz oldalú */
 
+function save() {
+    localStorage.setItem("html", document.body.innerHTML);
+    alert("Mentve!");
+    
+}
+
+function load() {
+   let content = localStorage.getItem("html");
+   if(content) {
+    document.body.innerHTML = content;
+   }
+   alert("Karakter betöltve!");
+}
+
 function ismerteto() {
     alert("Üdvözöllek a M.A.G.U.S. karakterkészítőben. Első lépésként válassz fajt. Második lépésként válassz kasztot. Harmadik lépésként válassz vallást. Fontos: bizonyos kasztoknál kötelező vallást választani! Valamint, némely faj nem tartozhat bármely kasztba! Miután ezekkel megvagy, nyomj az 'értékek kidobása!' gombra. Ezután a 'számolj!' gombra. A fegyveres harcérték számításával tudod a karakter teljes harcértékeit megjeleníteni. Itt a harcértékek nevei mellett a fegyverek saját értékei vannak, míg a rózsaszín rubrikába a teljes kiszámított érték. Ha nem vagy elégedett a kockadobásos tulajdonságok meghatározásával, akkor a '+' és a '-' gombokkal beállíthatod magadnak. Azonban ilyenkor újra a 'számolj'-t kell nyomnod, valamint a harci értéket is újra csinálni.")
 }
