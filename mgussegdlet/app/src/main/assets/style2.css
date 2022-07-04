@@ -1,12 +1,20 @@
+#audio1 {
+    margin-top: 1%;
+    height: 24px;
+    opacity: 0.5;
+    position: relative;
+    
+}
 
 #myVideo {
-    top: 0;
-    left: 0;
-    position: fixed;
-    width: 300%;
-    height: auto;
+    position: absolute;
     z-index: -1;
-    border-right: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    left: 0;
+    width: max-content;
+    height: max-content;
   }
 
 .video1 {
@@ -39,7 +47,7 @@ button {
     width: 80%;
     padding: 20px;
     font-size: 24px;
-    opacity: 0.8;
+    opacity: 0.7;
     margin-top: 20px;
     border-radius: 12px;
     border: 1px;
@@ -60,6 +68,8 @@ table {
     background-position: 30%;
     color: darkblue;
     font-weight: bold;
+    backdrop-filter: blur 2px;
+    opacity: 0.7;
 }
 
 #kasztokbutton {
@@ -67,8 +77,9 @@ table {
     background-position: 10% 20%;
     background-repeat: no-repeat;
     background-size: 100%;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
+    
 
 }
 
@@ -79,6 +90,9 @@ table {
     background-size: 100%;
     color: darkgreen;
     font-weight: bold;
+    backdrop-filter: blur 2px;
+    opacity: 0.7;
+
 
 }
 
@@ -89,11 +103,13 @@ table {
     background-size: 100%;
     color: red;
     font-weight: bold;
-
+    backdrop-filter: blur 2px;
+    opacity: 0.7;
 
 }
 
 #gomb {
     background-color: grey;
     font-size: 30px;
+    opacity: 0.6;
 }
