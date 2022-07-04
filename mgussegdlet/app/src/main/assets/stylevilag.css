@@ -2,6 +2,7 @@
 
 
 .buttons {
+    position: static;
     padding: 6px 4px;
     box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
     line-height: 1.25;
@@ -24,6 +25,7 @@
 
 table {
     position: fixed;
+    background-color: white;
 }
 
 #buttonsdiv {
@@ -127,4 +129,9 @@ table {
 #tiadlan {
   margin-top: 1200px;
   margin-left: 2000px;
+}
+
+#dwyll {
+  margin-top: 1140px;
+  margin-left: 1550px;
 }
