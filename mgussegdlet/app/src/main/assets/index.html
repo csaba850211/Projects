@@ -19,8 +19,9 @@
                     <button onclick="location.href='index2.html';" style="background-color: white; border-width: 1px; border-radius: 3px; padding: 4px;">Töredékek</button>
                     <button onclick="location.href='index.html';" style="background-color: white; border-width: 1px; border-radius: 3px; padding: 4px;">Karakterkészítő</button>
                     <button onclick="ismerteto()" style="background-color: white; border-width: 1px; border-radius: 3px; padding: 4px;">Ismertető</button>
-                    <button onclick="save()" style="background-color:yellow; border-width: 1px; border-radius: 3px; padding: 4px;">Mentés</button>
-                    <button onclick="load()" style="background-color:limegreen; border-width: 1px; border-radius: 3px; padding: 4px;">Betöltés</button>
+                    <button onclick="save()" style="background-color:yellow; border-width: 1px; border-radius: 3px; padding: 4px;">Mentés</button> <!--ez a mentés gomb!-->
+                    <button onclick="load()" style="background-color:limegreen; border-width: 1px; border-radius: 3px; padding: 4px;">Betöltés</button> <!--ez a betötlés gomb!-->
+                    <button onclick="torles()" style="background-color:rgb(228, 27, 24); border-width: 1px; border-radius: 3px; padding: 4px;">Törlés</button>
                 </div>
             </td>
         </tr>
@@ -28,6 +29,7 @@
         <tr>
             <td width="50%">
                 <div id="divek">
+                    <output id="outputfaj" style="border: 1px; background-color:black; color:aliceblue; font-size: 12px; padding: 3px; border-radius: 4px;"></output>
                     <label for="" style="font-size: 12px;">Faj választása: </label>
                     <select name="" id="fajselector">
                         <option value="">Válassz</option>
@@ -42,6 +44,7 @@
 
             <td>
                 <div id="divek">
+                    <output id="outputvallas" style="border: 1px; background-color:black; color:aliceblue; font-size: 12px; padding: 3px; border-radius: 4px;"></output>
                     <label for="" style="font-size: 12px;">Vallás választása: </label>
                     <select name="" id="vallasselector">
                         <option value="valassz">Válassz</option>
@@ -72,8 +75,9 @@
         <tr>
             <td>
                 <div id="divek">
+                    <output id="outputkaszt" style="border: 1px; background-color:black; color:aliceblue; font-size: 12px; padding: 3px; border-radius: 4px;"></output>
                     <label for="" style="font-size: 10px;">Kaszt választása</label>
-                    <select name="" id="kasztselector">
+                    <select name="" id="kasztselector" style="max-width: 90px;">
                         <option value="valassz">Válassz</option>
                         <option value="harcos">Harcos</option>
                         <option value="gladiator">Gladiátor</option>

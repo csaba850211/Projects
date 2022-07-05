@@ -5,18 +5,23 @@ var k6 = Math.round(Math.random() * 6 + 1); /*dobókocka hat oldalú*/
 var k8 = Math.round(Math.random() * 8 + 1); /*dobókocka nyolc oldalú */
 var k10 = Math.round(Math.random() * 10 + 1); /*dobókocka tíz oldalú */
 
-function save() {
+function save() { /*ez a mentés script! */
     localStorage.setItem("html", document.body.innerHTML);
     alert("Mentve!");
     
 }
 
-function load() {
+function load() { /*ez a betöltés script! */
    let content = localStorage.getItem("html");
    if(content) {
     document.body.innerHTML = content;
    }
    alert("Karakter betöltve!");
+}
+
+function torles() {
+   localStorage.removeItem("html");
+   alert("Karakter adatai törölve!")
 }
 
 function ismerteto() {
@@ -2894,6 +2899,10 @@ function asztralminus() {
 }
 
 function kepzettseg() { /* itt vannak a kasztok harci értékei, és életerő, manapont stb. */
+
+    document.getElementById("outputfaj").innerHTML = document.getElementById("fajselector").value;
+    document.getElementById("outputvallas").innerHTML = document.getElementById("vallasselector").value;
+    document.getElementById("outputkaszt").innerHTML = document.getElementById("kasztselector").value;
 
     if (document.getElementById("fajselector").value == "elf") {
         document.getElementById("ero").innerHTML = document.getElementById("ero").innerHTML - 2;
