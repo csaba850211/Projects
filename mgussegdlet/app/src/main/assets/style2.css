@@ -9,16 +9,16 @@
 #myVideo {
     position: absolute;
     z-index: -1;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     left: 0;
-    width: max-content;
-    height: max-content;
+    animation: fadeIn 8s;
   }
 
 .video1 {
-    animation: fadeIn 8s;
+    
+    height: 204%;
 }
 
 @keyframes fadeIn {
@@ -31,6 +31,8 @@
     }
     
 }
+
+
 
 body {
     background-color: black;
