@@ -21,5 +21,8 @@ public class MainActivity extends AppCompatActivity {
         WebSettings webSettings = webView.getSettings();
         webSettings.setMediaPlaybackRequiresUserGesture(false);
         webSettings.setDomStorageEnabled(true);
+        webView.loadUrl("file:///android_asset/index2.html");
     }
 }
+
+
