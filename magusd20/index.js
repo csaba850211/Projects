@@ -1,0 +1,22 @@
+function szamol() {
+    document.getElementById("szam1").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam2").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam3").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam4").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam5").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam6").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam7").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam8").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam9").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam10").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam11").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam12").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam13").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam14").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam15").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam16").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam17").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam18").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam19").innerHTML = Math.floor(Math.random()*20);
+    document.getElementById("szam20").innerHTML = Math.floor(Math.random()*20);
+}

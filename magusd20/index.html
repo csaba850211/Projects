@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="szamol()" style="margin-left: 10%; margin-top: 10%;">nyomd</button><br><br>
+
+
+    <table>
+        <tr>
+            <td>
+                <output id="szam1"></output>
+                <input type="checkbox" id="szam1check" onchange="change1()">
+            </td>
+            <td>
+                <output id="szam2"></output>
+                <input type="checkbox" id="szam2check" onchange="change2()">
+
+            </td>
+            <td>
+                <output id="szam3"></output>
+                <input type="checkbox" id="szam3check" onchange="change3()">
+            </td>
+            <td>
+                <output id="szam4"></output>
+                <input type="checkbox" id="szam4check" onchange="change4()">
+            </td>
+            <td>
+                <output id="szam5"></output>
+                <input type="checkbox" id="szam5check" onchange="change5()">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <output id="szam6"></output>
+                <input type="checkbox" id="szam6check" onchange="change6()">
+            </td>
+            <td>
+                <output id="szam7"></output>
+                <input type="checkbox" id="szam7check" onchange="change7()">
+            </td>
+            <td>
+                <output id="szam8"></output>
+                <input type="checkbox" id="szam8check" onchange="change8()">
+            </td>
+            <td>
+                <output id="szam9"></output>
+                <input type="checkbox" id="szam9check" onchange="change9()">
+            </td>
+            <td>
+                <output id="szam10"></output>
+                <input type="checkbox" id="szam10check" onchange="change10()">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <output id="szam11"></output>
+                <input type="checkbox" id="szam11check" onchange="change11()">
+            </td>
+            <td>
+                <output id="szam12"></output>
+                <input type="checkbox" id="szam12check" onchange="change12()">
+            </td>
+            <td>
+                <output id="szam13"></output>
+                <input type="checkbox" id="szam13check" onchange="change13()">
+            </td>
+            <td>
+                <output id="szam14"></output>
+                <input type="checkbox" id="szam14check" onchange="change14()">
+            </td>
+            <td>
+                <output id="szam15"></output>
+                <input type="checkbox" id="szam15check" onchange="change15()">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <output id="szam16"></output>
+                <input type="checkbox" id="szam16check" onchange="change16()">
+            </td>
+            <td>
+                <output id="szam17"></output>
+                <input type="checkbox" id="szam17check" onchange="change17()">
+            </td>
+            <td>
+                <output id="szam18"></output>
+                <input type="checkbox" id="szam18check" onchange="change18()">
+            </td>
+            <td>
+                <output id="szam19"></output>
+                <input type="checkbox" id="szam19check" onchange="change19()">
+            </td>
+            <td>
+                <output id="szam20"></output>
+                <input type="checkbox" id="szam20check" onchange="change20()">
+            </td>
+        </tr>
+
+    </table>
+
+    <table>
+        <tr>
+            <td>
+                <label for="">1: </label>
+                <input type="number" min="1" max="20" id="szam1in">
+            </td>
+            <td>
+                <label for="">2: </label>
+                <input type="number" min="1" max="20" id="szam2in"> 
+            </td>
+            <td>
+                <label for="">3: </label>
+                <input type="number" min="1" max="20" id="szam3in">
+            </td>
+            <td>
+                <label for="">4:</label>
+                <input type="number" min="1" max="20" id="szam4in">
+            </td>
+            <td>
+                <label for="">5:</label>
+                <input type="number" min="1" max="20" id="szam5in">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="">6: </label>
+                <input type="number" min="1" max="20" id="szam6in">
+            </td>
+            <td>
+                <label for="">7: </label>
+                <input type="number" min="1" max="20" id="szam7in"> 
+            </td>
+            <td>
+                <label for="">8: </label>
+                <input type="number" min="1" max="20" id="szam8in">
+            </td>
+            <td>
+                <label for="">9: </label>
+                <input type="number" min="1" max="20" id="szam9in">
+            </td>
+            <td>
+                <label for="">10: </label>
+                <input type="number" min="1" max="20" id="szam10in">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="">11: </label>
+                <input type="number" min="1" max="20" id="szam11in">
+            </td>
+            <td>
+                <label for="">12: </label>
+                <input type="number" min="1" max="20" id="szam12in"> 
+            </td>
+            <td>
+                <label for="">13: </label>
+                <input type="number" min="1" max="20" id="szam13in">
+            </td>
+            <td>
+                <label for="">14: </label>
+                <input type="number" min="1" max="20" id="szam14in">
+            </td>
+            <td>
+                <label for="">15: </label>
+                <input type="number" min="1" max="20" id="szam15in">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="">16: </label>
+                <input type="number" min="1" max="20" id="szam16in">
+            </td>
+            <td>
+                <label for="">17: </label>
+                <input type="number" min="1" max="20" id="szam17in"> 
+            </td>
+            <td>
+                <label for="">18: </label>
+                <input type="number" min="1" max="20" id="szam18in">
+            </td>
+            <td>
+                <label for="">19: </label>
+                <input type="number" min="1" max="20" id="szam19in">
+            </td>
+            <td>
+                <label for="">20: </label>
+                <input type="number" min="1" max="20" id="szam20in">
+            </td>
+        </tr>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
