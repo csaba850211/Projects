@@ -1,0 +1,44 @@
+#bodybackground {
+    width: 108%;
+    height: 108%;
+    position: fixed;
+    left: -2%;
+    top: -2%;
+    z-index: -1;
+}
+
+#indexbuttonsdiv {
+    width: 100px;
+    position: absolute;
+    top: 0%;
+    left: 13%;
+    animation: slidein 5s forwards;
+}
+
+@keyframes slidein {
+    from {margin-top: 0%;}
+    to {margin-top: 18%;}
+}
+
+.mainbuttons {
+    width: 300px;
+    padding: 10px;
+    border: 0px;
+    margin-top: 8px;
+    border-radius: 3px;
+    font-family: 'Shalimar', cursive;
+    font-size: 20px;
+    box-shadow: 3px 3px 3px black;
+    animation: fadeIn 5s;
+    opacity: 0.7;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 0.7;}
+    
+}
+
+body {
+    text-align: center;
+}
