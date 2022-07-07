@@ -13,11 +13,12 @@
     top: 0%;
     left: 13%;
     animation: slidein 5s forwards;
+    
 }
 
 @keyframes slidein {
     from {margin-top: 0%;}
-    to {margin-top: 18%;}
+    to {margin-top: 24%;}
 }
 
 .mainbuttons {
