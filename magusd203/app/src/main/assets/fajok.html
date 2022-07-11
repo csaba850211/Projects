@@ -13,69 +13,90 @@
 <body>
 
     <div id="menudiv">
-        <select name="" id="menuselector">
-            <option value="menu" onchange="menuselector()">Menü</option>
-            <option value="fajok" onchange="menuselector()">Ynev fajai</option>
-            <option value="kasztok" onchange="menuselector()">Kasztok</option>
-            <option value="kepessegek" onchange="menuselector()">Képességek</option>
-            <option value="kepzettsegek" onchange="menuselector()">Képzettségek</option>
-            <option value="pszi" onchange="menuselector()">Pszi</option>
-            <option value="varazslatok" onchange="menuselector()">Varázslatok</option>
-            <option value="papimagia" onchange="menuselector()">Papi mágia</option>
-            <option value="satralis" onchange="menuselector()">Satralis</option>
-            <option value="istenek" onchange="menuselector()">Istenek</option>
-            <option value="kargen" onchange="menuselector()">Karakter készítő</option>
-            <option value="sugo" onchange="menuselector()">Súgó</option>
+        <select name="" id="menuselector" onchange="menuselector()">
+            <option value="menu">Menü</option>
+            <option value="home">Home</option>
+            <option value="fajok">Ynev fajai</option>
+            <option value="kasztok">Kasztok</option>
+            <option value="kepessegek">Képességek</option>
+            <option value="kepzettsegek">Képzettségek</option>
+            <option value="pszi">Pszi</option>
+            <option value="varazslatok">Varázslatok</option>
+            <option value="papimagia">Papi mágia</option>
+            <option value="satralis">Satralis</option>
+            <option value="istenek">Istenek</option>
+            <option value="kargen">Karakter készítő</option>
+            <option value="sugo">Súgó</option>
         </select>
-    </div><br>
-    
+    </div><br><br>
+
+
     </div>
-        <h1>Fajok</h1>
+    <h1>Fajok</h1>
     </div>
 
 
     <div id="text">
 
-        <h2>Elf</h2>
+        <div id="humandiv">
+            <div>
+                <h3>Ember</h3>
+            </div>
 
-        Along with width and height, CSS containers also have an overflow property that can be used for image cropping.
-        To activate the overflow property enclose the image, within a div of a particular width and height, and set
-        overflow:hidden. This will ensure that the base container will retain its structure, and any image overflow will
-        be hidden behind the container.
+            <div style="text-indent: 1em;">
+                <i>
+                  A Hetedkor az embereké, ám korántsem ők az egyeduralkodók Yneven.
+                Léteznek még embertől érintetlen erdők a kontinensen, hol csak a Szépek Népe járja a rengetegeket.
+                Erion nyüzsgésében és Yllinor pusztáin elf őseikre hajazó, ám azok békéjét sosem ismerő kevertvérűek
+                keresik önmagukat.
+                A Tarin hegységben és Északfölde egyéb tájain a Kő gyermekei építik boldogulásukat, miközben csak
+                fejüket csóválják az embernépség lázas sietsége láttán.
+                Ynev közismert fajairól valószínűleg a kontinens legtöbb lakója hallott már, és talán fel is ismeri, ha
+                szember akad egyikükkel.
+                Az emberek és ezen fajok közt élénk kapcsolatok szövődnek kontinens szerte, legyen szó akár gazdasági,
+                kultúrális kötelékekről.  
+                </i>  
+            </div><br>
 
-        Finally, the margin property is used on the image to adjust the cropped area. This property takes four values.
-        However, only the first and last of the four values are essential as they represent the pixels from the top, and
-        the left, respectively.
-
-        Consider the example below; it​ uses the same 480
-        480
-        x 240
-        240
-        image of a puppy. Experiment with the values of width, height and margin, note the output:
-        A M.A.G.U.S. egy, az 1993-as, első kiadása óta nagy magyarországi népszerűségnek örvendő, magyar fejlesztésű
-        szerepjáték a Valhalla Páholy gondozásában. Többször átdolgozott és kiegészítőkkel bővült játékrendszere a 100
-        oldalú (fiktív) dobókockára (röviden: k100) épül, eltekintve a 20 oldalút használó 2004-es kiadású Alapkönyvtől.
-        Az egyebek között emberek, orkok, törpék és elfek lakta komplex fantáziavilága, Satralis, azon belül is
-        elsősorban Ynev számos – a játékot támogató céllal íródott – regényben és novellában köszön vissza. Társas és
-        gyűjtögetős kártyajáték változata is készült.
-
-        A M.A.G.U.S. karaktereinek leírására négy fő sablont használ: minden játékos karakternek van kasztja, faja,
-        jelleme és kora; ezekből vezethetőek le a karakter számszerűsíthető értékei és alapvető beállítottsága. Ezt
-        árnyalja tovább az úgynevezett előtörténet, amely a karakter eddigi életútját foglalja össze, leírja családi
-        környezetét, pátriáját és megtalálhatóak benne azon sorsdöntő események, amelyek egy adott kaszt és jellem felé
-        terelték személyiségét. Ezt alapvetően játékos írja meg és a kalandmester azt jóváhagyja vagy – hogy a játék
-        egyensúlyát megtartsa – javításokat eszközöltet rajta. Különleges esetekben az előtörténet bizonyos eseményeit a
-        kalandmester lejátszatja a játékossal, mielőtt az használatba vehetné karakterét. Az olyan játékmódokban, ahol
-        az előtörténet a harcközpontúság miatt annyira nem hangsúlyos, annak megírásától a kalandmesterek és a játékosok
-        általában eltekintenek; ilyenek például a viadal- és gladiátorjátékok. A hosszú játékokban azonban fontos
-        szerepet kap a személyiség és az emberi kapcsolatok, így az előtörténet nem elhagyható. Az úgynevezett
-        életút-játék karakterei a szokásosnál jóval összetettebbek, leírásuk több tíz, esetenként száz oldal – egy
-        átlagos történet azonban nem több 2-8 oldalnál. Az előtörténetnek szigorúan része a karakter kora: a leírt
-        életútnak arányban kell azzal állnia. A rendszer öt életkorszakot különböztet meg, s a felnőtt kivételével mind
-        módosító hatással van a karakter játéktulajdonságaira.
-
-        A karakter számszerűsíthető értékeinek meghatározása – a képzettségek kivételével – a karakteralkotás folyamán
-        kockadobásokkal történik.
+            <div>
+                <p style="text-indent: 1em;"> Az emberi faj nem öröktől fogva lakja Ynev földjét, pontos eredetükről még
+                    a legbölcsebbek is csak ködös taláálgatásokba bocsátkozhatnak.
+                    A dorani magiszterek szerint az emberiség első feltűnése a Harmadkorra tehető, amikor is egy Cranta
+                    nevű emberi birodalom nőtt ki a Fajháborúk káoszából.
+                    Egyes délvidéki történészek szerint azonban az emberek faja Dél-Yneven bukkant fel először.</p><br>
+                <p style="text-indent: 1em;">
+                    Az azóta eltelt viharos évezredek majd' minden ősi fajnak hanyatlást hoztak. A rettegett aquirok a
+                    túlélésért küzdenek a kontinens félreeső szegleteiben, az elfek büszke népe mára hatalmának és
+                    életerejének töredékével bír csak, sok ősi népre pedig már senki sem emlékszik Ynev ege alatt.
+                    Mindeközben az emberek sokasodtak, birodalmakat alapítottak, számtalanszor elbuktak - emlékezzünk a
+                    kyrek által megdöntött Crantára, avagy a Godont elpusztító kráni aquirokra -, de mindig
+                    felemelkedtek.
+                    A Hetedkor alkonyán nincs már szinte oly szeglete Ynevnek, ahol nem az emberi kultúra, az emberi
+                    társadalom lenne meghatározó, a szolgákból urak lettek, járjunk akár Erigow büszke városában, avagy
+                    a Taba el-Ibara homokján.
+                </p>
+                <br>
+                <p style="text-indent: 1em;">
+                    Gyorsan tanulnak, és képesek is az elsajátított tudást a javukra fordítani.
+                    Az ősi kontinens szemtanúja volt, ahogy a megalázó szolgaszerepből (Démonikus Ó-Birodalom)
+                    felemelkedve egész Ynevet áthatotta országaik (legyen az a Pyarroni Államközösség, avagy az Északi
+                    Szövetség) szelleme.
+                </p>
+                <br>
+                <p style="text-indent: 1em;">
+                    Ahány vidék, annyi fajta ember; ez a faj az, amely a leginkább változékony és rugalmas, amely a
+                    legtöbb tudást fogadta magába az ősibb és bölcsebb népektől. Vannak helyek, hol elfek vére kering
+                    ereikben, van, ahol aquiroké; mégis, mind emberek ők.
+                    Alkalmazkodóképességük rendkívüli, kultúráik hihetetlenül sokszínűek: legtöbbjük nem is tudja már,
+                    milyen ősöknek köszönheti hagyományait.
+                    Épp ezért kilátástalan vállalkozás volna röviden összefoglalni változékony, egymástól sok esetben
+                    teljesen idegen kultúráikat; az egyes emberi társadalmakról csak külön-külön érdemes beszélni, hisz
+                    az embernépek számtalan vizsgálója tanúsíthatja, hogy az emberiség jellemzésekor nem célravezetőek
+                    az általánosítások.
+                </p>
+                <br>
+            </div>
+        </div>
 
 
 
