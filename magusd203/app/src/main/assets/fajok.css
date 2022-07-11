@@ -1,22 +1,8 @@
 
 body {
     font-family: 'Rubik';
+    animation: bodyslide 4s forwards;
 }
 
-#sidebar {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    overflow: hidden;
-    height: 200%;
-    object-fit: contain;
-}
 
-h1 {
-    top: 3%;
-    margin-left: 10%;
-    background-color: grey;
-    opacity: 0.8;
-    padding: 4px;
-    border-radius: 4px;
-}
+
